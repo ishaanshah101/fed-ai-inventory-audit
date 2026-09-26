@@ -1,0 +1,1046 @@
+{
+  "n_rows": 3611,
+  "n_live": 1480,
+  "n_sampled": 844,
+  "agreement": {
+    "n_items": 844,
+    "n_judgements": 1688,
+    "fields": {
+      "category": {
+        "alpha": 0.850419393165576,
+        "observed_agreement": 0.9170616113744076
+      },
+      "decision_role": {
+        "alpha": 0.7772363842837431,
+        "observed_agreement": 0.8815165876777251
+      },
+      "stage": {
+        "alpha": 0.3724505106238809,
+        "observed_agreement": 0.6812796208530806
+      },
+      "quantified": {
+        "alpha": 0.9750174004472285,
+        "observed_agreement": 0.9988151658767772
+      },
+      "metric_named": {
+        "alpha": 0.7086041239339307,
+        "observed_agreement": 0.9620853080568721
+      },
+      "evaluation_described": {
+        "alpha": 0.7521385660180226,
+        "observed_agreement": 0.9786729857819905
+      },
+      "baseline_given": {
+        "alpha": 0.8523284313725491,
+        "observed_agreement": 0.990521327014218
+      },
+      "uncertainty_given": {
+        "alpha": 0.5427440776277976,
+        "observed_agreement": 0.9940758293838863
+      }
+    },
+    "reading_high_impact": {
+      "observed_agreement": 0.9383886255924171,
+      "alpha": 0.8639381080007942,
+      "n_agreed": 792,
+      "n_disputed": 52,
+      "n_agreed_true": 266,
+      "n_agreed_false": 526,
+      "psa_true": 0.910958904109589
+    },
+    "reading_principal_only": {
+      "observed_agreement": 0.9917061611374408,
+      "alpha": 0.8529591214154982,
+      "n_agreed": 837,
+      "n_disputed": 7,
+      "n_agreed_true": 21,
+      "n_agreed_false": 816,
+      "psa_true": 0.8571428571428571
+    },
+    "category_pairs_top": {
+      "none|none": 519,
+      "f|f": 98,
+      "j|j": 81,
+      "m|m": 36,
+      "j|none": 23,
+      "a|a": 10,
+      "n|n": 9,
+      "m|none": 7,
+      "g|g": 6,
+      "a|none": 6,
+      "h|h": 5,
+      "o|o": 5,
+      "f|none": 4,
+      "j|k": 4,
+      "a|j": 4
+    }
+  },
+  "rq2": {
+    "survival": {
+      "high": {
+        "n": 40,
+        "survived": 39,
+        "rate": 0.975
+      },
+      "not": {
+        "n": 40,
+        "survived": 34,
+        "rate": 0.85
+      }
+    },
+    "disputed_resolution": {
+      "high": 23,
+      "not": 7
+    },
+    "by_self_determination": {
+      "High-impact": {
+        "n": 250,
+        "agreed": 237,
+        "read_high": 193,
+        "read_not": 44,
+        "disputed": 13,
+        "rate_read_high_agreed": 0.8143459915611815,
+        "wilson": [
+          0.7599703100672832,
+          0.8586939378973089
+        ],
+        "bound_lo": 0.772,
+        "bound_hi": 0.824,
+        "calibrated_high": 204.74166666666665,
+        "calibrated_rate": 0.8189666666666666,
+        "read_high_strict": 14,
+        "rate_strict": 0.056
+      },
+      "Not High-impact": {
+        "n": 493,
+        "agreed": 465,
+        "read_high": 47,
+        "read_not": 418,
+        "disputed": 28,
+        "rate_read_high_agreed": 0.1010752688172043,
+        "wilson": [
+          0.07686407797230888,
+          0.13182365000038535
+        ],
+        "bound_lo": 0.09533468559837728,
+        "bound_hi": 0.15212981744421908,
+        "calibrated_high": 129.99166666666667,
+        "calibrated_rate": 0.26367478025693036,
+        "read_high_strict": 2,
+        "rate_strict": 0.004056795131845842
+      },
+      "Presumed High-Impact, but Not High-impact": {
+        "n": 71,
+        "agreed": 60,
+        "read_high": 25,
+        "read_not": 35,
+        "disputed": 11,
+        "rate_read_high_agreed": 0.4166666666666667,
+        "wilson": [
+          0.30064278558341617,
+          0.5427191897735989
+        ],
+        "bound_lo": 0.352112676056338,
+        "bound_hi": 0.5070422535211268,
+        "calibrated_high": 38.05833333333334,
+        "calibrated_rate": 0.5360328638497653,
+        "read_high_strict": 4,
+        "rate_strict": 0.056338028169014086
+      },
+      "": {
+        "n": 30,
+        "agreed": 30,
+        "read_high": 1,
+        "read_not": 29,
+        "disputed": 0,
+        "rate_read_high_agreed": 0.03333333333333333,
+        "wilson": [
+          0.005908590381612455,
+          0.16670390991409173
+        ],
+        "bound_lo": 0.03333333333333333,
+        "bound_hi": 0.03333333333333333,
+        "calibrated_high": 5.325,
+        "calibrated_rate": 0.17750000000000002,
+        "read_high_strict": 1,
+        "rate_strict": 0.03333333333333333
+      }
+    },
+    "not_hi_calibrated_boot": [
+      0.26367478025693036,
+      0.1769945909398242,
+      0.36447980054090584
+    ],
+    "calibration_units": {
+      "high": 40,
+      "disputed": 30,
+      "not": 40
+    },
+    "not_hi_read_high_agency_bootstrap": [
+      0.1010752688172043,
+      0.06570804418531453,
+      0.14015151515151514
+    ],
+    "population_estimate_not_hi_read_high": {
+      "estimate": 106.02390583631873,
+      "of": 1129,
+      "rate": 0.09390957115705822,
+      "self_reported_high_live": 250,
+      "per_agency": {
+        "STATE": {
+          "sampled": 24,
+          "read_high": 2,
+          "rate": 0.08333333333333333,
+          "live_not_hi": 25,
+          "self_high_live": 3
+        },
+        "USDA": {
+          "sampled": 28,
+          "read_high": 2,
+          "rate": 0.07142857142857142,
+          "live_not_hi": 83,
+          "self_high_live": 1
+        },
+        "FRB": {
+          "sampled": 23,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 23,
+          "self_high_live": 0
+        },
+        "DOE": {
+          "sampled": 29,
+          "read_high": 3,
+          "rate": 0.10344827586206896,
+          "live_not_hi": 167,
+          "self_high_live": 8
+        },
+        "DOJ": {
+          "sampled": 30,
+          "read_high": 3,
+          "rate": 0.1,
+          "live_not_hi": 88,
+          "self_high_live": 80
+        },
+        "HHS": {
+          "sampled": 28,
+          "read_high": 1,
+          "rate": 0.03571428571428571,
+          "live_not_hi": 245,
+          "self_high_live": 0
+        },
+        "DOI": {
+          "sampled": 30,
+          "read_high": 3,
+          "rate": 0.1,
+          "live_not_hi": 129,
+          "self_high_live": 0
+        },
+        "SEC": {
+          "sampled": 22,
+          "read_high": 1,
+          "rate": 0.045454545454545456,
+          "live_not_hi": 25,
+          "self_high_live": 0
+        },
+        "DOL": {
+          "sampled": 21,
+          "read_high": 2,
+          "rate": 0.09523809523809523,
+          "live_not_hi": 22,
+          "self_high_live": 1
+        },
+        "FHFA": {
+          "sampled": 12,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 12,
+          "self_high_live": 0
+        },
+        "TREAS": {
+          "sampled": 30,
+          "read_high": 2,
+          "rate": 0.06666666666666667,
+          "live_not_hi": 46,
+          "self_high_live": 0
+        },
+        "NASA": {
+          "sampled": 28,
+          "read_high": 1,
+          "rate": 0.03571428571428571,
+          "live_not_hi": 43,
+          "self_high_live": 1
+        },
+        "VA": {
+          "sampled": 27,
+          "read_high": 8,
+          "rate": 0.2962962962962963,
+          "live_not_hi": 58,
+          "self_high_live": 101
+        },
+        "FDIC": {
+          "sampled": 17,
+          "read_high": 4,
+          "rate": 0.23529411764705882,
+          "live_not_hi": 18,
+          "self_high_live": 1
+        },
+        "SSA": {
+          "sampled": 20,
+          "read_high": 6,
+          "rate": 0.3,
+          "live_not_hi": 22,
+          "self_high_live": 9
+        },
+        "FTC": {
+          "sampled": 12,
+          "read_high": 2,
+          "rate": 0.16666666666666666,
+          "live_not_hi": 12,
+          "self_high_live": 0
+        },
+        "SBA": {
+          "sampled": 4,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 4,
+          "self_high_live": 0
+        },
+        "EPA": {
+          "sampled": 12,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 12,
+          "self_high_live": 1
+        },
+        "DHS": {
+          "sampled": 23,
+          "read_high": 5,
+          "rate": 0.21739130434782608,
+          "live_not_hi": 47,
+          "self_high_live": 39
+        },
+        "DOT": {
+          "sampled": 14,
+          "read_high": 1,
+          "rate": 0.07142857142857142,
+          "live_not_hi": 17,
+          "self_high_live": 0
+        },
+        "NCUA": {
+          "sampled": 1,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 1,
+          "self_high_live": 5
+        },
+        "EAC": {
+          "sampled": 4,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 4,
+          "self_high_live": 0
+        },
+        "OSHRC": {
+          "sampled": 1,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 1,
+          "self_high_live": 0
+        },
+        "NIGC": {
+          "sampled": 5,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 5,
+          "self_high_live": 0
+        },
+        "FERC": {
+          "sampled": 2,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 2,
+          "self_high_live": 0
+        },
+        "NTSB": {
+          "sampled": 3,
+          "read_high": 1,
+          "rate": 0.3333333333333333,
+          "live_not_hi": 3,
+          "self_high_live": 0
+        },
+        "HUD": {
+          "sampled": 6,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 6,
+          "self_high_live": 0
+        },
+        "NARA": {
+          "sampled": 6,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 6,
+          "self_high_live": 0
+        },
+        "NRC": {
+          "sampled": 2,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 2,
+          "self_high_live": 0
+        },
+        "FCC": {
+          "sampled": 1,
+          "read_high": 0,
+          "rate": 0.0,
+          "live_not_hi": 1,
+          "self_high_live": 0
+        }
+      }
+    },
+    "prediction2": {
+      "zero_self_report_agencies": [
+        "DOI",
+        "HHS",
+        "TREAS"
+      ],
+      "zero_rate": 0.06818181818181818,
+      "zero_n": [
+        6,
+        88
+      ],
+      "top_self_report_agencies": [
+        "VA",
+        "DOJ",
+        "DHS"
+      ],
+      "top_rate": 0.2,
+      "top_n": [
+        16,
+        80
+      ],
+      "diff_boot": [
+        -0.13181818181818183,
+        -0.2281144781144781,
+        -0.041860465116279076
+      ]
+    },
+    "screen": {
+      "live_matching": 523,
+      "live_matching_self_not": 278,
+      "precision_in_sample": 0.6656626506024096,
+      "recall_in_sample": 0.8308270676691729
+    },
+    "categories_among_read_high": {
+      "f": 97,
+      "j": 89,
+      "m": 38,
+      "a": 17,
+      "g": 11,
+      "n": 9,
+      "h": 5,
+      "o": 5,
+      "k": 5,
+      "b": 4,
+      "l": 3,
+      "e": 2,
+      "d": 2
+    }
+  },
+  "rq3": {
+    "n_live": 1480,
+    "candidates": 305,
+    "quantified": 37,
+    "rate": 0.025,
+    "wilson": [
+      0.018191321981325146,
+      0.03426809567274136
+    ],
+    "metric_named": 37,
+    "evaluation_described": 9,
+    "baseline_given": 15,
+    "uncertainty_given": 0,
+    "checkable": 9,
+    "checkable_rate": 0.006081081081081081,
+    "checkable_wilson": [
+      0.003202560396377313,
+      0.011516976310767238
+    ],
+    "passes_vs_reviewer": {
+      "reviewer_q_in_sample": 19,
+      "passes_both_q": 20,
+      "passes_any_q": 20,
+      "agree_both": 19,
+      "missed_by_both": [],
+      "overcalled_by_both": [
+        2442
+      ]
+    }
+  },
+  "rq4": {
+    "n_deployed_high_impact": 227,
+    "per_practice": {
+      "hi_testing_conducted": {
+        "complete": 44,
+        "in_progress": 81,
+        "blank": 102,
+        "waived": 0
+      },
+      "hi_assessment_completed": {
+        "complete": 36,
+        "in_progress": 90,
+        "blank": 101,
+        "waived": 0
+      },
+      "hi_independent_review": {
+        "complete": 36,
+        "in_progress": 89,
+        "blank": 102,
+        "waived": 0
+      },
+      "hi_ongoing_monitoring": {
+        "complete": 40,
+        "in_progress": 85,
+        "blank": 102,
+        "waived": 0
+      },
+      "hi_training_established": {
+        "complete": 41,
+        "in_progress": 81,
+        "blank": 102,
+        "waived": 0
+      },
+      "hi_failsafe_presence": {
+        "complete": 45,
+        "in_progress": 81,
+        "blank": 101,
+        "waived": 0
+      }
+    },
+    "by_agency": {
+      "DHS": {
+        "n": 38,
+        "all_six": 26,
+        "all_blank": 0,
+        "columns_omitted": false
+      },
+      "DOE": {
+        "n": 2,
+        "all_six": 0,
+        "all_blank": 0,
+        "columns_omitted": false
+      },
+      "DOJ": {
+        "n": 73,
+        "all_six": 0,
+        "all_blank": 0,
+        "columns_omitted": false
+      },
+      "DOL": {
+        "n": 1,
+        "all_six": 0,
+        "all_blank": 0,
+        "columns_omitted": false
+      },
+      "EPA": {
+        "n": 1,
+        "all_six": 0,
+        "all_blank": 0,
+        "columns_omitted": false
+      },
+      "FDIC": {
+        "n": 1,
+        "all_six": 0,
+        "all_blank": 1,
+        "columns_omitted": true
+      },
+      "NASA": {
+        "n": 1,
+        "all_six": 0,
+        "all_blank": 1,
+        "columns_omitted": true
+      },
+      "NCUA": {
+        "n": 5,
+        "all_six": 0,
+        "all_blank": 5,
+        "columns_omitted": true
+      },
+      "SSA": {
+        "n": 8,
+        "all_six": 7,
+        "all_blank": 0,
+        "columns_omitted": false
+      },
+      "STATE": {
+        "n": 2,
+        "all_six": 0,
+        "all_blank": 0,
+        "columns_omitted": false
+      },
+      "USDA": {
+        "n": 1,
+        "all_six": 0,
+        "all_blank": 0,
+        "columns_omitted": false
+      },
+      "VA": {
+        "n": 94,
+        "all_six": 0,
+        "all_blank": 94,
+        "columns_omitted": true
+      }
+    },
+    "all_six_complete": 33,
+    "none_complete_reported": 78,
+    "all_blank": 101
+  },
+  "rq1": {
+    "n_rows": 3611,
+    "required_cells": 41642,
+    "filled_cells": 38031,
+    "overall_completeness": 0.9132846645213967,
+    "rows_fully_complete": 2548,
+    "missing_cells": 3611,
+    "missing_because_column_omitted": 3033,
+    "missing_because_cell_blank": 578,
+    "agencies_omitting_a_required_column": [
+      "CFTC",
+      "DOC",
+      "DOI",
+      "DOT",
+      "EAC",
+      "ED",
+      "FCA",
+      "FCC",
+      "FDIC",
+      "FHFA",
+      "FRB",
+      "FTC",
+      "GSA",
+      "HHS",
+      "HUD",
+      "NARA",
+      "NASA",
+      "NCUA",
+      "NEA",
+      "NIGC",
+      "NRC",
+      "NSF",
+      "NTSB",
+      "OSC",
+      "OSHRC",
+      "PBGC",
+      "SEC",
+      "STB",
+      "TVA",
+      "VA"
+    ],
+    "rows_missing_stage": 338,
+    "rows_missing_determination": 426,
+    "rows_name_only": 257,
+    "name_only_by_agency": {
+      "DOC": 198,
+      "TVA": 59
+    },
+    "missing_by_field": {
+      "demographic_features": 511,
+      "is_high_impact": 426,
+      "development_stage": 338,
+      "data_description": 308,
+      "operational_date": 221,
+      "has_pii": 209,
+      "have_ato": 203,
+      "benefits": 138,
+      "system_outputs": 133,
+      "hi_potential_impacts": 102,
+      "hi_testing_conducted": 102,
+      "hi_independent_review": 102,
+      "hi_ongoing_monitoring": 102,
+      "hi_training_established": 102,
+      "hi_assessment_completed": 101,
+      "hi_failsafe_presence": 101,
+      "hi_appeal_process": 101,
+      "hi_public_consultation": 101,
+      "agency_bureau": 57,
+      "has_custom_code": 44,
+      "contracting_usage": 36,
+      "problem_solved": 32,
+      "topic_area": 20,
+      "classification": 20,
+      "use_case_name": 1
+    },
+    "by_agency_lowest": [
+      [
+        0.2926829268292683,
+        "CFTC",
+        3
+      ],
+      [
+        0.37948717948717947,
+        "NSF",
+        17
+      ],
+      [
+        0.42168674698795183,
+        "GSA",
+        49
+      ],
+      [
+        0.5,
+        "DOC",
+        223
+      ],
+      [
+        0.5,
+        "ED",
+        56
+      ],
+      [
+        0.5,
+        "TVA",
+        59
+      ],
+      [
+        0.5673758865248227,
+        "NCUA",
+        6
+      ],
+      [
+        0.6652386780905752,
+        "VA",
+        367
+      ],
+      [
+        0.7125748502994012,
+        "PBGC",
+        17
+      ],
+      [
+        0.8251001335113485,
+        "DOT",
+        70
+      ]
+    ]
+  },
+  "rq5": {
+    "n_2024": 2133,
+    "n_2025": 3611,
+    "matched": 1195,
+    "unmatched": 767,
+    "agency_absent_in_2025": 171,
+    "unmatched_rate_of_matchable": 0.390927624872579,
+    "agencies_2024_not_in_2025": [
+      "CFPB",
+      "EEOC",
+      "OPM",
+      "PRC",
+      "PT",
+      "USAGM",
+      "USAID",
+      "USCCR",
+      "USTDA"
+    ],
+    "unmatched_by_agency": {
+      "HHS": 127,
+      "DOJ": 87,
+      "DOI": 84,
+      "VA": 76,
+      "DHS": 60,
+      "ED": 53,
+      "DOL": 40,
+      "TREAS": 40,
+      "DOC": 26,
+      "STATE": 22,
+      "FRB": 20,
+      "FDIC": 19,
+      "GSA": 18,
+      "USDA": 17,
+      "DOE": 13,
+      "NCUA": 13,
+      "EPA": 12,
+      "TVA": 12,
+      "NSF": 9,
+      "SEC": 5,
+      "SSA": 3,
+      "EAC": 2,
+      "FHFA": 2,
+      "NARA": 2,
+      "HUD": 1,
+      "NASA": 1,
+      "CFTC": 1,
+      "FERC": 1,
+      "DOT": 1
+    },
+    "n2024_by_agency": {
+      "HHS": 271,
+      "DOJ": 240,
+      "VA": 229,
+      "DHS": 183,
+      "DOI": 180,
+      "USAID": 137,
+      "USDA": 89,
+      "DOE": 79,
+      "DOL": 70,
+      "DOT": 66,
+      "DOC": 57,
+      "FDIC": 55,
+      "TREAS": 54,
+      "ED": 54,
+      "STATE": 51,
+      "FRB": 50,
+      "TVA": 39,
+      "SEC": 28,
+      "GSA": 24,
+      "SSA": 23,
+      "NASA": 18,
+      "FHFA": 18,
+      "EPA": 17,
+      "NSF": 16,
+      "NCUA": 16,
+      "NARA": 9,
+      "EEOC": 8,
+      "USAGM": 8,
+      "HUD": 6,
+      "FTC": 6,
+      "PT": 5,
+      "CFPB": 4,
+      "CFTC": 4,
+      "FERC": 4,
+      "USTDA": 4,
+      "OPM": 2,
+      "EAC": 2,
+      "NTSB": 2,
+      "PBGC": 2,
+      "USCCR": 2,
+      "PRC": 1
+    },
+    "retired_in_2025": 314,
+    "review": {
+      "rename": 27,
+      "retired_in_2024": 5,
+      "no_successor": 19,
+      "no_successor_cots_likely": 9
+    },
+    "review_n": 60,
+    "silent_disappearance_upper_incl_cots": 0.18243289160720352,
+    "silent_disappearance_upper_excl_cots": 0.12379374787631668,
+    "stage": {
+      "Pre-deployment": 1479,
+      "Deployed": 1040,
+      "Pilot": 440,
+      "Retired": 314,
+      "": 338
+    },
+    "deployed_rate": 0.28800886181113267,
+    "live_rate": 0.4098587648850734
+  },
+  "rq6": {
+    "n_live": 1480,
+    "n_vendor_involved": 939,
+    "n_vendor_purchased": 552,
+    "n_contract_and_inhouse": 387,
+    "n_inhouse": 505,
+    "n_contracting_blank": 36,
+    "n_named_vendor_rows": 625,
+    "n_distinct_strings": 378,
+    "n_distinct_parents": 375,
+    "top": [
+      [
+        "Microsoft",
+        110
+      ],
+      [
+        "Google",
+        29
+      ],
+      [
+        "Deloitte",
+        27
+      ],
+      [
+        "OpenAI",
+        27
+      ],
+      [
+        "Palantir",
+        23
+      ],
+      [
+        "Amazon",
+        17
+      ],
+      [
+        "Thomson Reuters",
+        17
+      ],
+      [
+        "NEC",
+        11
+      ],
+      [
+        "ServiceNow",
+        10
+      ],
+      [
+        "Guidehouse",
+        9
+      ],
+      [
+        "Leidos",
+        9
+      ],
+      [
+        "LexisNexis",
+        9
+      ],
+      [
+        "Accenture",
+        7
+      ],
+      [
+        "Adobe",
+        7
+      ],
+      [
+        "Aretec",
+        7
+      ],
+      [
+        "Anthropic",
+        6
+      ],
+      [
+        "Esri",
+        6
+      ],
+      [
+        "Axon",
+        6
+      ],
+      [
+        "Credal",
+        6
+      ],
+      [
+        "IBM",
+        5
+      ],
+      [
+        "SAIC",
+        4
+      ],
+      [
+        "DV United",
+        4
+      ],
+      [
+        "Veritone",
+        4
+      ],
+      [
+        "Perplexity",
+        4
+      ],
+      [
+        "SAS",
+        4
+      ]
+    ],
+    "share_top5": 0.3456,
+    "share_top10": 0.448,
+    "microsoft_share": 0.176,
+    "microsoft_by_agency": {
+      "DHS": {
+        "n": 95,
+        "microsoft": 6
+      },
+      "DOE": {
+        "n": 127,
+        "microsoft": 50
+      },
+      "DOI": {
+        "n": 20,
+        "microsoft": 4
+      },
+      "DOJ": {
+        "n": 133,
+        "microsoft": 13
+      },
+      "HHS": {
+        "n": 137,
+        "microsoft": 8
+      },
+      "SEC": {
+        "n": 19,
+        "microsoft": 0
+      },
+      "SSA": {
+        "n": 21,
+        "microsoft": 7
+      },
+      "STATE": {
+        "n": 20,
+        "microsoft": 5
+      },
+      "USDA": {
+        "n": 34,
+        "microsoft": 2
+      }
+    }
+  },
+  "partC": {
+    "n_deployed_sampled": 647,
+    "passes_both_in_use": 355,
+    "passes_both_not_in_use": 87,
+    "passes_disagree": 205,
+    "alpha": 0.3724505106238809,
+    "pass_in_use_survival": {
+      "in_use->in_use": 33,
+      "in_use->unclear": 114,
+      "in_use->not_yet": 3,
+      "not_yet->not_yet": 9,
+      "unclear->unclear": 47,
+      "unclear->not_yet": 6,
+      "unclear->in_use": 3,
+      "not_yet->unclear": 5
+    }
+  },
+  "predictions": {
+    "1_not_hi_read_high_ge_15pct": {
+      "value": 0.1010752688172043,
+      "calibrated": 0.26367478025693036,
+      "held": false
+    },
+    "2_zero_reporters_higher": {
+      "zero": 0.06818181818181818,
+      "top": 0.2,
+      "held": false,
+      "diff_boot": [
+        -0.13181818181818183,
+        -0.2281144781144781,
+        -0.041860465116279076
+      ]
+    },
+    "3_quantified_lt_10_checkable_lt_2": {
+      "quantified": 0.025,
+      "checkable": 0.006081081081081081,
+      "held": true
+    },
+    "4_unmatched_ge_20pct": {
+      "raw_unmatched": 0.390927624872579,
+      "corrected_upper": 0.18243289160720352,
+      "held_as_stated": true
+    },
+    "5_top5_gt_half": {
+      "top5_share": 0.3456,
+      "held": false
+    },
+    "6_deployed_read_not_in_use_ge_10pct": {
+      "passes_both_not_in_use_rate": 0.13446676970633695,
+      "testable": false,
+      "note": "stage rubric did not reproduce (alpha 0.37; pass in_use survived review 22%)"
+    }
+  }
+}

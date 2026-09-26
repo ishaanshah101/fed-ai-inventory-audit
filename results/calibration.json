@@ -1,0 +1,106 @@
+{
+  "self_consistency": {
+    "category": 8,
+    "decision_role": 8,
+    "stage": 8,
+    "reading": 8
+  },
+  "n_dup_pairs": 8,
+  "c1_survival": {
+    "high": {
+      "n": 40,
+      "survived": 39,
+      "rate": 0.975
+    },
+    "not": {
+      "n": 40,
+      "survived": 34,
+      "rate": 0.85
+    }
+  },
+  "c1_disputed_n": 30,
+  "c1_disputed_resolution": {
+    "high": 23,
+    "not": 7
+  },
+  "category_agreement_with_agreed_passes": {
+    "n": 81,
+    "agree": 70,
+    "rate": 0.8641975308641975
+  },
+  "stage_confusion_pass_vs_reviewer": {
+    "in_use->in_use": 33,
+    "in_use->unclear": 114,
+    "in_use->not_yet": 3,
+    "not_yet->not_yet": 9,
+    "unclear->unclear": 47,
+    "unclear->not_yet": 6,
+    "unclear->in_use": 3,
+    "not_yet->unclear": 5
+  },
+  "c2_candidates": 305,
+  "c2_in_sample": 185,
+  "c2_reviewer_quantified_rows": [
+    30,
+    107,
+    109,
+    110,
+    201,
+    875,
+    951,
+    977,
+    1261,
+    1819,
+    1829,
+    1834,
+    1841,
+    1849,
+    1876,
+    1877,
+    1894,
+    1897,
+    2027,
+    2043,
+    2143,
+    2183,
+    2184,
+    2263,
+    2431,
+    2834,
+    3245,
+    3250,
+    3251,
+    3346,
+    3434,
+    3446,
+    3448,
+    3469,
+    3487,
+    3519,
+    3553
+  ],
+  "c2_reviewer_checkable_rows": [
+    875,
+    1894,
+    2043,
+    2263,
+    3245,
+    3251,
+    3346,
+    3448,
+    3469
+  ],
+  "c2_reviewer_baseline_n": 15,
+  "c2_reviewer_uncertainty_n": 0,
+  "c2_vs_passes": {
+    "reviewer_q_in_sample": 19,
+    "passes_both_q": 20,
+    "passes_any_q": 20,
+    "agree_both": 19,
+    "missed_by_both": [],
+    "overcalled_by_both": [
+      2442
+    ]
+  },
+  "passes_quantified_outside_candidates": []
+}

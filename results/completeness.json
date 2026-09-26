@@ -1,0 +1,324 @@
+{
+  "n_rows": 3611,
+  "required_cells": 41642,
+  "filled_cells": 38031,
+  "overall_completeness": 0.9132846645213967,
+  "rows_fully_complete": 2548,
+  "missing_cells": 3611,
+  "missing_because_column_omitted": 3033,
+  "missing_because_cell_blank": 578,
+  "agencies_omitting_a_required_column": [
+    "CFTC",
+    "DOC",
+    "DOI",
+    "DOT",
+    "EAC",
+    "ED",
+    "FCA",
+    "FCC",
+    "FDIC",
+    "FHFA",
+    "FRB",
+    "FTC",
+    "GSA",
+    "HHS",
+    "HUD",
+    "NARA",
+    "NASA",
+    "NCUA",
+    "NEA",
+    "NIGC",
+    "NRC",
+    "NSF",
+    "NTSB",
+    "OSC",
+    "OSHRC",
+    "PBGC",
+    "SEC",
+    "STB",
+    "TVA",
+    "VA"
+  ],
+  "rows_missing_stage": 338,
+  "rows_missing_determination": 426,
+  "rows_name_only": 257,
+  "name_only_by_agency": {
+    "DOC": 198,
+    "TVA": 59
+  },
+  "by_agency": {
+    "CFTC": {
+      "n": 3,
+      "required": 41,
+      "filled": 12,
+      "completeness": 0.2926829268292683
+    },
+    "DHS": {
+      "n": 238,
+      "required": 3145,
+      "filled": 3032,
+      "completeness": 0.9640699523052464
+    },
+    "DOC": {
+      "n": 223,
+      "required": 892,
+      "filled": 446,
+      "completeness": 0.5
+    },
+    "DOE": {
+      "n": 340,
+      "required": 4235,
+      "filled": 4036,
+      "completeness": 0.9530106257378985
+    },
+    "DOI": {
+      "n": 247,
+      "required": 3061,
+      "filled": 3059,
+      "completeness": 0.9993466187520418
+    },
+    "DOJ": {
+      "n": 314,
+      "required": 4704,
+      "filled": 4704,
+      "completeness": 1.0
+    },
+    "DOL": {
+      "n": 41,
+      "required": 484,
+      "filled": 474,
+      "completeness": 0.9793388429752066
+    },
+    "DOT": {
+      "n": 70,
+      "required": 749,
+      "filled": 618,
+      "completeness": 0.8251001335113485
+    },
+    "EAC": {
+      "n": 4,
+      "required": 64,
+      "filled": 61,
+      "completeness": 0.953125
+    },
+    "ED": {
+      "n": 56,
+      "required": 224,
+      "filled": 112,
+      "completeness": 0.5
+    },
+    "EPA": {
+      "n": 29,
+      "required": 338,
+      "filled": 328,
+      "completeness": 0.9704142011834319
+    },
+    "FCA": {
+      "n": 3,
+      "required": 27,
+      "filled": 23,
+      "completeness": 0.8518518518518519
+    },
+    "FCC": {
+      "n": 6,
+      "required": 56,
+      "filled": 56,
+      "completeness": 1.0
+    },
+    "FDIC": {
+      "n": 50,
+      "required": 522,
+      "filled": 511,
+      "completeness": 0.9789272030651341
+    },
+    "FERC": {
+      "n": 6,
+      "required": 68,
+      "filled": 62,
+      "completeness": 0.9117647058823529
+    },
+    "FHFA": {
+      "n": 16,
+      "required": 208,
+      "filled": 208,
+      "completeness": 1.0
+    },
+    "FRB": {
+      "n": 38,
+      "required": 503,
+      "filled": 502,
+      "completeness": 0.9980119284294234
+    },
+    "FTC": {
+      "n": 16,
+      "required": 218,
+      "filled": 194,
+      "completeness": 0.8899082568807339
+    },
+    "GSA": {
+      "n": 49,
+      "required": 581,
+      "filled": 245,
+      "completeness": 0.42168674698795183
+    },
+    "HHS": {
+      "n": 447,
+      "required": 5563,
+      "filled": 5503,
+      "completeness": 0.9892144526334712
+    },
+    "HUD": {
+      "n": 11,
+      "required": 131,
+      "filled": 131,
+      "completeness": 1.0
+    },
+    "NARA": {
+      "n": 14,
+      "required": 168,
+      "filled": 168,
+      "completeness": 1.0
+    },
+    "NASA": {
+      "n": 425,
+      "required": 4138,
+      "filled": 4071,
+      "completeness": 0.9838086031899468
+    },
+    "NCUA": {
+      "n": 6,
+      "required": 141,
+      "filled": 80,
+      "completeness": 0.5673758865248227
+    },
+    "NEA": {
+      "n": 4,
+      "required": 36,
+      "filled": 36,
+      "completeness": 1.0
+    },
+    "NIGC": {
+      "n": 5,
+      "required": 80,
+      "filled": 70,
+      "completeness": 0.875
+    },
+    "NRC": {
+      "n": 4,
+      "required": 50,
+      "filled": 49,
+      "completeness": 0.98
+    },
+    "NSF": {
+      "n": 17,
+      "required": 195,
+      "filled": 74,
+      "completeness": 0.37948717948717947
+    },
+    "NTSB": {
+      "n": 4,
+      "required": 57,
+      "filled": 57,
+      "completeness": 1.0
+    },
+    "OSC": {
+      "n": 1,
+      "required": 9,
+      "filled": 8,
+      "completeness": 0.8888888888888888
+    },
+    "OSHRC": {
+      "n": 1,
+      "required": 16,
+      "filled": 16,
+      "completeness": 1.0
+    },
+    "PBGC": {
+      "n": 17,
+      "required": 167,
+      "filled": 119,
+      "completeness": 0.7125748502994012
+    },
+    "SBA": {
+      "n": 34,
+      "required": 319,
+      "filled": 319,
+      "completeness": 1.0
+    },
+    "SEC": {
+      "n": 60,
+      "required": 655,
+      "filled": 645,
+      "completeness": 0.9847328244274809
+    },
+    "SSA": {
+      "n": 33,
+      "required": 586,
+      "filled": 561,
+      "completeness": 0.9573378839590444
+    },
+    "STATE": {
+      "n": 60,
+      "required": 639,
+      "filled": 631,
+      "completeness": 0.9874804381846636
+    },
+    "STB": {
+      "n": 2,
+      "required": 18,
+      "filled": 18,
+      "completeness": 1.0
+    },
+    "TREAS": {
+      "n": 129,
+      "required": 1442,
+      "filled": 1439,
+      "completeness": 0.9979195561719834
+    },
+    "TVA": {
+      "n": 59,
+      "required": 236,
+      "filled": 118,
+      "completeness": 0.5
+    },
+    "USDA": {
+      "n": 162,
+      "required": 1974,
+      "filled": 1974,
+      "completeness": 1.0
+    },
+    "VA": {
+      "n": 367,
+      "required": 4902,
+      "filled": 3261,
+      "completeness": 0.6652386780905752
+    }
+  },
+  "missing_by_field": {
+    "demographic_features": 511,
+    "is_high_impact": 426,
+    "development_stage": 338,
+    "data_description": 308,
+    "operational_date": 221,
+    "has_pii": 209,
+    "have_ato": 203,
+    "benefits": 138,
+    "system_outputs": 133,
+    "hi_potential_impacts": 102,
+    "hi_testing_conducted": 102,
+    "hi_independent_review": 102,
+    "hi_ongoing_monitoring": 102,
+    "hi_training_established": 102,
+    "hi_assessment_completed": 101,
+    "hi_failsafe_presence": 101,
+    "hi_appeal_process": 101,
+    "hi_public_consultation": 101,
+    "agency_bureau": 57,
+    "has_custom_code": 44,
+    "contracting_usage": 36,
+    "problem_solved": 32,
+    "topic_area": 20,
+    "classification": 20,
+    "use_case_name": 1
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "provenance": {
+    "source_repo": "https://github.com/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory",
+    "source_commit": "06c7ebeef5b376524211042bd9673b2a7fefd3e3",
+    "source_commit_date": "2026-05-14",
+    "file": "Data/2025_individually_reported_AI_use_cases.csv",
+    "sha256": "a62721202ca4b110ce3c53ffdb688d05ad27a35971a7afda4f1179b2493e31d0",
+    "prior_year_repo": "https://github.com/ombegov/2024-Federal-AI-Use-Case-Inventory",
+    "prior_year_commit": "4a29d132291261d4829b187acd8af618e7295294"
+  },
+  "n_use_cases": 3611,
+  "n_agencies": 41,
+  "development_stage": {
+    "Pre-deployment": 1479,
+    "Deployed": 1040,
+    "Pilot": 440,
+    "Retired": 314,
+    "": 338
+  },
+  "is_high_impact": {
+    "": 426,
+    "High-impact": 445,
+    "Presumed High-Impact, but Not High-impact": 110,
+    "Not High-impact": 2630
+  },
+  "contracting_usage": {
+    "": 2007,
+    "Vendor Purchased": 594,
+    "Contracting and In House": 429,
+    "In-house Development": 581
+  },
+  "have_ato": {
+    "": 2069,
+    "No": 755,
+    "Yes": 787
+  },
+  "has_pii": {
+    "": 2100,
+    "No": 1151,
+    "Yes": 360
+  },
+  "has_custom_code": {
+    "": 1899,
+    "No": 1006,
+    "Yes": 706
+  },
+  "classification": {
+    "": 662,
+    "NLP": 454,
+    "Computer Vision": 292,
+    "Classical ML": 1114,
+    "Generative AI": 858,
+    "Agentic AI": 117,
+    "Reinforcement Learning": 12,
+    "Other": 102
+  },
+  "topic_area": {
+    "": 603,
+    "Law Enforcement": 285,
+    "Admin Functions": 424,
+    "Cybersecurity": 53,
+    "IT": 394,
+    "Procurement and Finance Mgmt": 90,
+    "International Affairs": 8,
+    "HR": 46,
+    "Transportation": 79,
+    "Service Delivery": 150,
+    "Benefits Processing": 56,
+    "Emergency Mgmt": 33,
+    "Health and Medical": 272,
+    "Other": 173,
+    "Science": 758,
+    "Energy and Environment": 131,
+    "Other - Applied Mathematical Sciences": 13,
+    "Other \u2013 Economic & Financial": 34,
+    "Other (use other text field)": 3,
+    "Administrative functions": 6
+  },
+  "is_withheld": {
+    "": 1132,
+    "No": 2452,
+    "Yes - Prohibited by Law": 4,
+    "Yes - Disclosure Risk": 20,
+    "Other": 3
+  },
+  "n_deployed_or_pilot": 1480,
+  "stage_by_hi": {
+    "Deployed": {
+      "": 22,
+      "High-impact": 227,
+      "Presumed High-Impact, but Not High-impact": 61,
+      "Not High-impact": 730
+    },
+    "Pilot": {
+      "": 8,
+      "Presumed High-Impact, but Not High-impact": 10,
+      "Not High-impact": 399,
+      "High-impact": 23
+    },
+    "Pre-deployment": {
+      "": 58,
+      "High-impact": 140,
+      "Presumed High-Impact, but Not High-impact": 36,
+      "Not High-impact": 1245
+    },
+    "Retired": {
+      "Not High-impact": 256,
+      "High-impact": 55,
+      "Presumed High-Impact, but Not High-impact": 3
+    },
+    "": {
+      "": 338
+    }
+  },
+  "hi_by_agency_live": {
+    "CFTC": {
+      "n": 2,
+      "": 2
+    },
+    "DHS": {
+      "n": 118,
+      "Presumed High-Impact, but Not High-impact": 32,
+      "Not High-impact": 47,
+      "High-impact": 39
+    },
+    "DOE": {
+      "n": 176,
+      "Not High-impact": 167,
+      "Presumed High-Impact, but Not High-impact": 1,
+      "High-impact": 8
+    },
+    "DOI": {
+      "n": 129,
+      "Not High-impact": 129
+    },
+    "DOJ": {
+      "n": 188,
+      "Not High-impact": 88,
+      "High-impact": 80,
+      "Presumed High-Impact, but Not High-impact": 20
+    },
+    "DOL": {
+      "n": 23,
+      "Not High-impact": 22,
+      "High-impact": 1
+    },
+    "DOT": {
+      "n": 17,
+      "Not High-impact": 17
+    },
+    "EAC": {
+      "n": 4,
+      "Not High-impact": 4
+    },
+    "EPA": {
+      "n": 14,
+      "Not High-impact": 12,
+      "Presumed High-Impact, but Not High-impact": 1,
+      "High-impact": 1
+    },
+    "FCC": {
+      "n": 1,
+      "Not High-impact": 1
+    },
+    "FDIC": {
+      "n": 19,
+      "High-impact": 1,
+      "Not High-impact": 18
+    },
+    "FERC": {
+      "n": 2,
+      "Not High-impact": 2
+    },
+    "FHFA": {
+      "n": 12,
+      "Not High-impact": 12
+    },
+    "FRB": {
+      "n": 23,
+      "Not High-impact": 23
+    },
+    "FTC": {
+      "n": 12,
+      "Not High-impact": 12
+    },
+    "GSA": {
+      "n": 20,
+      "": 20
+    },
+    "HHS": {
+      "n": 255,
+      "Not High-impact": 245,
+      "Presumed High-Impact, but Not High-impact": 10
+    },
+    "HUD": {
+      "n": 6,
+      "Not High-impact": 6
+    },
+    "NARA": {
+      "n": 6,
+      "Not High-impact": 6
+    },
+    "NASA": {
+      "n": 47,
+      "Not High-impact": 43,
+      "Presumed High-Impact, but Not High-impact": 3,
+      "High-impact": 1
+    },
+    "NCUA": {
+      "n": 6,
+      "Not High-impact": 1,
+      "High-impact": 5
+    },
+    "NIGC": {
+      "n": 5,
+      "Not High-impact": 5
+    },
+    "NRC": {
+      "n": 2,
+      "Not High-impact": 2
+    },
+    "NSF": {
+      "n": 6,
+      "": 6
+    },
+    "NTSB": {
+      "n": 3,
+      "Not High-impact": 3
+    },
+    "OSHRC": {
+      "n": 1,
+      "Not High-impact": 1
+    },
+    "PBGC": {
+      "n": 2,
+      "": 2
+    },
+    "SBA": {
+      "n": 4,
+      "Not High-impact": 4
+    },
+    "SEC": {
+      "n": 25,
+      "Not High-impact": 25
+    },
+    "SSA": {
+      "n": 31,
+      "Not High-impact": 22,
+      "High-impact": 9
+    },
+    "STATE": {
+      "n": 28,
+      "Not High-impact": 25,
+      "High-impact": 3
+    },
+    "TREAS": {
+      "n": 48,
+      "Not High-impact": 46,
+      "Presumed High-Impact, but Not High-impact": 2
+    },
+    "USDA": {
+      "n": 86,
+      "Not High-impact": 83,
+      "Presumed High-Impact, but Not High-impact": 2,
+      "High-impact": 1
+    },
+    "VA": {
+      "n": 159,
+      "High-impact": 101,
+      "Not High-impact": 58
+    }
+  },
+  "n_deployed_high_impact": 227,
+  "min_practices": {
+    "hi_testing_conducted": {
+      "Yes": 44,
+      "In-progress": 81,
+      "": 102
+    },
+    "hi_assessment_completed": {
+      "In-progress": 90,
+      "Yes": 36,
+      "": 101
+    },
+    "hi_independent_review": {
+      "In-progress": 89,
+      "CAIO Review": 31,
+      "Oversight Board Review": 1,
+      "Internal Independent Review": 4,
+      "": 102
+    },
+    "hi_ongoing_monitoring": {
+      "In-progress": 85,
+      "Yes - Monitoring Established": 40,
+      "": 102
+    },
+    "hi_training_established": {
+      "Training In-progress": 81,
+      "Training Established": 41,
+      "b) Development of monitoring protocols is in-progess": 2,
+      "a) Yes, sufficient monitoring protocols have been established": 1,
+      "": 102
+    },
+    "hi_failsafe_presence": {
+      "In-progress": 81,
+      "Not Applicable": 10,
+      "Yes": 35,
+      "": 101
+    },
+    "hi_appeal_process": {
+      "Appeal Process Established": 16,
+      "Not Applicable": 28,
+      "Appeal Precluded by Law": 4,
+      "Appeal Process In-progress": 78,
+      "": 101
+    },
+    "hi_public_consultation": {
+      "['Other']": 22,
+      "['Usability Testing']": 11,
+      "['a) Direct usability testing', 'b) General solicitations of feedback and comments from the public']": 5,
+      "['Public Feedback Solicitations']": 3,
+      "['In-progress']": 80,
+      "['a) Direct usability testing', 'd) Other']": 2,
+      "['Establishment of an appropriate appeal process is in-progress']": 1,
+      "['b) General solicitations of feedback and comments from the public', 'd) Other']": 1,
+      "['DOL will promptly remove any PII inadvertently disclosed that is subsequently identified after posting publicly']": 1,
+      "[]": 101
+    }
+  }
+}

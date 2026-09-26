@@ -1,0 +1,1402 @@
+{
+  "n_live": 1480,
+  "n_vendor_involved": 939,
+  "n_vendor_purchased": 552,
+  "n_contract_and_inhouse": 387,
+  "n_inhouse": 505,
+  "n_contracting_blank": 36,
+  "n_named_vendor_rows": 625,
+  "n_distinct_strings": 378,
+  "n_distinct_parents": 375,
+  "top": [
+    [
+      "Microsoft",
+      110
+    ],
+    [
+      "Google",
+      29
+    ],
+    [
+      "Deloitte",
+      27
+    ],
+    [
+      "OpenAI",
+      27
+    ],
+    [
+      "Palantir",
+      23
+    ],
+    [
+      "Amazon",
+      17
+    ],
+    [
+      "Thomson Reuters",
+      17
+    ],
+    [
+      "NEC",
+      11
+    ],
+    [
+      "ServiceNow",
+      10
+    ],
+    [
+      "Guidehouse",
+      9
+    ],
+    [
+      "Leidos",
+      9
+    ],
+    [
+      "LexisNexis",
+      9
+    ],
+    [
+      "Accenture",
+      7
+    ],
+    [
+      "Adobe",
+      7
+    ],
+    [
+      "Aretec",
+      7
+    ],
+    [
+      "Anthropic",
+      6
+    ],
+    [
+      "Esri",
+      6
+    ],
+    [
+      "Axon",
+      6
+    ],
+    [
+      "Credal",
+      6
+    ],
+    [
+      "IBM",
+      5
+    ],
+    [
+      "SAIC",
+      4
+    ],
+    [
+      "DV United",
+      4
+    ],
+    [
+      "Veritone",
+      4
+    ],
+    [
+      "Perplexity",
+      4
+    ],
+    [
+      "SAS",
+      4
+    ]
+  ],
+  "share_top5": 0.3456,
+  "share_top10": 0.448,
+  "microsoft_share": 0.176,
+  "mapping": {
+    "Invariant Corporation": [
+      "Invariant Corporation"
+    ],
+    "Clearview AI": [
+      "Clearview AI"
+    ],
+    "ThruWave": [
+      "ThruWave"
+    ],
+    "Babel Street": [
+      "Babel Street"
+    ],
+    "ThruVision TAC 16": [
+      "ThruVision TAC 16"
+    ],
+    "Aneesh Technologies, 24X7, Ellumen Inc., Deloitte, NiyamIT": [
+      "24X7",
+      "Aneesh Technologies",
+      "Deloitte",
+      "Ellumen Inc",
+      "NiyamIT"
+    ],
+    "CBP procured mobile devices (Apple, Samsung) commercial off the shelf cameras (Logitech)": [
+      "CBP procured mobile devices (Apple",
+      "Samsung) commercial off the shelf cameras (Logitech"
+    ],
+    "NEC": [
+      "NEC"
+    ],
+    "NEC (algorithm only)": [
+      "NEC"
+    ],
+    "NexisXplore": [
+      "NexisXplore"
+    ],
+    "TRM Labs": [
+      "TRM Labs"
+    ],
+    "Marinus Analytics": [
+      "Marinus Analytics"
+    ],
+    "IProov": [
+      "IProov"
+    ],
+    "Rekor": [
+      "Rekor"
+    ],
+    "Countering Weapons of Mass Destruction, Department of Homeand Security": [
+      "Countering Weapons of Mass Destruction",
+      "Department of Homeand Security"
+    ],
+    "NEC (Nippon Electric Company)": [
+      "NEC"
+    ],
+    "Elder Research Inc, DevTech Systems Inc., Guidehouse": [
+      "DevTech Systems Inc",
+      "Elder Research Inc",
+      "Guidehouse"
+    ],
+    "Dataminr": [
+      "Dataminr"
+    ],
+    "Airship": [
+      "Airship"
+    ],
+    "Skydio and Xtender": [
+      "Skydio",
+      "Xtender"
+    ],
+    "Altana": [
+      "Altana"
+    ],
+    "PDRI": [
+      "PDRI"
+    ],
+    "Anduril": [
+      "Anduril"
+    ],
+    "Matroid": [
+      "Matroid"
+    ],
+    "JHU APL": [
+      "JHU APL"
+    ],
+    "Maxar": [
+      "Maxar"
+    ],
+    "Salesforce Einstein": [
+      "Salesforce"
+    ],
+    "Medallia": [
+      "Medallia"
+    ],
+    "Starlo and Deloitte": [
+      "Deloitte",
+      "Starlo"
+    ],
+    "Meta, OpenAI, Google, Anthropic": [
+      "Anthropic",
+      "Google",
+      "Meta",
+      "OpenAI"
+    ],
+    "Recorded Future": [
+      "Recorded Future"
+    ],
+    "Microsoft": [
+      "Microsoft"
+    ],
+    "Nightwing Intelligence Solutions, LLC. Procurement Instrument ID affiliated with this use case: 70QS0124C00000002": [
+      "LLC. Procurement Instrument ID affiliated",
+      "Nightwing Intelligence Solutions",
+      "this use case: 70QS0124C00000002"
+    ],
+    "Department of State": [
+      "Department of State"
+    ],
+    "Ideation": [
+      "Ideation"
+    ],
+    "Microsoft (OpenAI Azure Commercial Cloud offerings)": [
+      "Microsoft"
+    ],
+    "Microsoft (OpenAI part of Azure Commercial Cloud offerings)": [
+      "Microsoft"
+    ],
+    "Microsoft (Azure Commercial OpenAI Cloud Offerings)": [
+      "Microsoft"
+    ],
+    "Law Enforcement Sensitive (LES)": [],
+    "AIS": [
+      "AIS"
+    ],
+    "NEC is the third\u2011party vendor CBP uses. ICE accesses these capabilities through CBP and does not contract directly with NEC.": [
+      "NEC",
+      "does not contract directly"
+    ],
+    "Motorola": [
+      "Motorola Solutions"
+    ],
+    "Sandia National Laboratories": [
+      "Sandia National Laboratories"
+    ],
+    "Booz Allen": [
+      "Booz Allen Hamilton"
+    ],
+    "Case Guard": [
+      "Case Guard"
+    ],
+    "Palantir": [
+      "Palantir"
+    ],
+    "BI": [
+      "BI"
+    ],
+    "UiPath; Microsoft; Apryse; Personable Inc.": [
+      "Apryse",
+      "Microsoft",
+      "Personable Inc",
+      "UiPath"
+    ],
+    "Illumio; AttackIQ; Cofense; Splunk; Crowdstrike; Polarity": [
+      "AttackIQ",
+      "Cofense",
+      "CrowdStrike",
+      "Illumio",
+      "Polarity",
+      "Splunk"
+    ],
+    "Cellebrite": [
+      "Cellebrite"
+    ],
+    "Penlink, Fivecast": [
+      "Fivecast",
+      "Penlink"
+    ],
+    "LMI Consulting, LLC": [
+      "LMI Consulting"
+    ],
+    "CANDA Solutions": [
+      "CANDA Solutions"
+    ],
+    "Okta": [
+      "Okta"
+    ],
+    "Leidos, Rohde & Schwarz": [
+      "Leidos",
+      "Rohde",
+      "Schwarz"
+    ],
+    "IDEMIA Identity, Security USA LLC": [
+      "IDEMIA Identity",
+      "Security USA LLC"
+    ],
+    "CBP TVS, NEC Algorithm": [
+      "CBP TVS",
+      "NEC"
+    ],
+    "First Alert/Dataminr": [
+      "Dataminr",
+      "First Alert"
+    ],
+    "idiCORE": [
+      "idiCORE"
+    ],
+    "Sprinklr": [
+      "Sprinklr"
+    ],
+    "REX DBA Lexis Nexis": [
+      "LexisNexis"
+    ],
+    "SITE": [
+      "SITE"
+    ],
+    "FLIR": [
+      "FLIR"
+    ],
+    "Inadev": [
+      "Inadev"
+    ],
+    "IBM": [
+      "IBM"
+    ],
+    "Pluribus Digital": [
+      "Pluribus Digital"
+    ],
+    "MetroIBR": [
+      "MetroIBR"
+    ],
+    "SAIC and DV United": [
+      "DV United",
+      "SAIC"
+    ],
+    "Lasso": [
+      "Lasso"
+    ],
+    "Gurucul": [
+      "Gurucul"
+    ],
+    "CGI Federal under the Records Management Support Services (RMSS); Hyperscience - IDP software OEM": [
+      "CGI Federal under the Records Management Support Services (RMSS",
+      "Hyperscience - IDP software OEM"
+    ],
+    "Analytica and DV United": [
+      "Analytica",
+      "DV United"
+    ],
+    "Steampunk, Customer Value Partners LLC (CVP) and Alpha Omega Integration (AOI)": [
+      "Alpha Omega Integration (AOI",
+      "Customer Value Partners LLC (CVP",
+      "Steampunk"
+    ],
+    "Amped": [
+      "Amped"
+    ],
+    "OpenText": [
+      "OpenText"
+    ],
+    "Special Technologies Laboratory (STL)": [
+      "Special Technologies Laboratory (STL"
+    ],
+    "Apple": [
+      "Apple"
+    ],
+    "Google": [
+      "Google"
+    ],
+    "SKILLSOFT": [
+      "SKILLSOFT"
+    ],
+    "Accenture Federal Services, Google": [
+      "Accenture",
+      "Google"
+    ],
+    "Vectra": [
+      "Vectra"
+    ],
+    "Wellsaid": [
+      "WellSaid Labs"
+    ],
+    "ServiceNow (SAAS hosting provider)": [
+      "ServiceNow"
+    ],
+    "ServiceNow": [
+      "ServiceNow"
+    ],
+    "OpenAI (SAAS hosting provider)": [
+      "OpenAI"
+    ],
+    "OpenAI": [
+      "OpenAI"
+    ],
+    "C3": [
+      "C3"
+    ],
+    "xAI": [
+      "xAI"
+    ],
+    "AWS": [
+      "Amazon"
+    ],
+    "Anthropic": [
+      "Anthropic"
+    ],
+    "TBD": [],
+    "University of Montana": [
+      "University of Montana"
+    ],
+    "Tesseract": [
+      "Tesseract"
+    ],
+    "PEST": [
+      "PEST"
+    ],
+    "Google Gemini": [
+      "Google"
+    ],
+    "Salesforce": [
+      "Salesforce"
+    ],
+    "Not available": [],
+    "Open source development": [],
+    "Open source development with INL Advanced Analystics Center of Excellence": [
+      "INL Advanced Analystics Center of Excellence"
+    ],
+    "Open Source development": [],
+    "Open source development with INL Advanced Analytics Center of Excellence": [
+      "INL Advanced Analytics Center of Excellence"
+    ],
+    "Open AI": [
+      "OpenAI"
+    ],
+    "1899-12-31 11:59:00": [
+      "1899-12-31 11:59:00"
+    ],
+    "Open Source": [],
+    "PassiveLogic": [
+      "PassiveLogic"
+    ],
+    "Boston Dynamics": [
+      "Boston Dynamics"
+    ],
+    "Databricks": [
+      "Databricks"
+    ],
+    "Microsoft Corporation": [
+      "Microsoft"
+    ],
+    "HeyGen": [
+      "HeyGen"
+    ],
+    "CrewAI": [
+      "CrewAI"
+    ],
+    "GitHub": [
+      "Microsoft"
+    ],
+    "Splunk": [
+      "Splunk"
+    ],
+    "CrowdStrike": [
+      "CrowdStrike"
+    ],
+    "Legion (Previously Yurts)": [
+      "Legion (Previously Yurts"
+    ],
+    "Elastic": [
+      "Elastic"
+    ],
+    "Raytheon BBN Technologies": [
+      "Raytheon BBN Technologies"
+    ],
+    "Upstream Tech": [
+      "Upstream Tech"
+    ],
+    "Microsoft Azure": [
+      "Microsoft"
+    ],
+    "The Regulatory Group, Inc.": [
+      "The Regulatory Group"
+    ],
+    "Quantaero": [
+      "Quantaero"
+    ],
+    "Everlaw, Inc.": [
+      "Everlaw"
+    ],
+    "Navteca": [
+      "Navteca"
+    ],
+    "OpenAI, Microsoft": [
+      "Microsoft",
+      "OpenAI"
+    ],
+    "ESRI": [
+      "Esri"
+    ],
+    "unkown": [
+      "unkown"
+    ],
+    "Ultralytics": [
+      "Ultralytics"
+    ],
+    "Open Geospatial Consortium": [
+      "Open Geospatial Consortium"
+    ],
+    "Walker Environmental Research LLC": [
+      "Walker Environmental Research LLC"
+    ],
+    "Marda Science, LLC; ESRI; Python libraries (open-source)": [
+      "Esri",
+      "Marda Science",
+      "Python libraries (open-source"
+    ],
+    "Adobe": [
+      "Adobe"
+    ],
+    "Airlines Reporting Corporation": [
+      "Airlines Reporting Corporation"
+    ],
+    "Airship AI Holdings Inc.": [
+      "Airship AI Holdings Inc"
+    ],
+    "Leidos": [
+      "Leidos"
+    ],
+    "Axon": [
+      "Axon"
+    ],
+    "Bloomberg Industry Group": [
+      "Bloomberg Industry Group"
+    ],
+    "Verisk Analytics": [
+      "Verisk Analytics"
+    ],
+    "Leads Online": [
+      "Leads Online"
+    ],
+    "Dun and Bradstreet Holdings Inc.": [
+      "Bradstreet Holdings Inc",
+      "Dun"
+    ],
+    "General Services Administration (GSA)": [
+      "General Services Administration (GSA"
+    ],
+    "FINDER": [
+      "FINDER"
+    ],
+    "FirstTwo": [
+      "FirstTwo"
+    ],
+    "LexisNexis": [
+      "LexisNexis"
+    ],
+    "Mark43": [
+      "Mark43"
+    ],
+    "ISO / Verisk Analytics / National Insurance Crime Bureau": [
+      "ISO",
+      "National Insurance Crime Bureau",
+      "Verisk Analytics"
+    ],
+    "SoundThinking": [
+      "SoundThinking"
+    ],
+    "Western Union": [
+      "Western Union"
+    ],
+    "Spokeo": [
+      "Spokeo"
+    ],
+    "Thomson Reuters": [
+      "Thomson Reuters"
+    ],
+    "TransUnion": [
+      "TransUnion"
+    ],
+    "aiWARE": [
+      "aiWARE"
+    ],
+    "Whooster": [
+      "Whooster"
+    ],
+    "Flock Safety": [
+      "Flock Safety"
+    ],
+    "Leonardo US Cyber and Security Solutions LLC": [
+      "Leonardo US Cyber",
+      "Security Solutions LLC"
+    ],
+    "PenLink": [
+      "PenLink"
+    ],
+    "Veritone": [
+      "Veritone"
+    ],
+    "https://www.harvey.ai/ ,\thttps://openai.com/ ,\thttps://www.perplexity.ai/": [
+      "\thttps:",
+      "OpenAI",
+      "Perplexity",
+      "https:",
+      "www.harvey.ai"
+    ],
+    "Bates White, using Microsoft Azure": [
+      "Bates White",
+      "Microsoft"
+    ],
+    "BMC": [
+      "BMC"
+    ],
+    "Systran": [
+      "Systran"
+    ],
+    "Amazon": [
+      "Amazon"
+    ],
+    "Cloudflare": [
+      "Cloudflare"
+    ],
+    "Nuance Communications": [
+      "Nuance Communications"
+    ],
+    "PenLink PLX": [
+      "PenLink PLX"
+    ],
+    "NVIDIA": [
+      "NVIDIA"
+    ],
+    "MIT Lincoln Laboratory": [
+      "MIT Lincoln Laboratory"
+    ],
+    "Lawcatch LLC": [
+      "Lawcatch LLC"
+    ],
+    "CrowdStrike, Zscaler, Splunk, Lookout, Palo Alto Networks, and Cisco Secure Network Analytics": [
+      "Cisco",
+      "CrowdStrike",
+      "Lookout",
+      "Palo Alto Networks",
+      "Splunk",
+      "Zscaler"
+    ],
+    "CloudNine Law, Everlaw, Relativity, and Nuix.": [
+      "CloudNine Law",
+      "Everlaw",
+      "Nuix",
+      "Relativity"
+    ],
+    "These tools include, for example, Cellebrite, Magnet Axiom and Griffeye": [
+      "Cellebrite",
+      "Griffeye",
+      "Magnet Axiom",
+      "These tools include",
+      "for example"
+    ],
+    "Docketscope": [
+      "Docketscope"
+    ],
+    "ESRI, ArcGIS": [
+      "ArcGIS",
+      "Esri"
+    ],
+    "FOIA Xpress, Forum One, Adobe, and Polydelta": [
+      "Adobe",
+      "FOIA Xpress",
+      "Forum One",
+      "Polydelta"
+    ],
+    "GitHub, Microsoft": [
+      "Microsoft"
+    ],
+    "Tableau, PowerBI": [
+      "PowerBI",
+      "Tableau"
+    ],
+    "TechHit": [
+      "TechHit"
+    ],
+    "TransUnion Risk and Alternative Data Solutions, Inc.": [
+      "Alternative Data Solutions",
+      "TransUnion Risk"
+    ],
+    "Critical Mention": [
+      "Critical Mention"
+    ],
+    "Conductor": [
+      "Conductor"
+    ],
+    "AI Model Provider": [],
+    "AI Service Provider": [],
+    "American College of Cardiology": [
+      "American College of Cardiology"
+    ],
+    "BD Pyxis": [
+      "BD Pyxis"
+    ],
+    "SAS": [
+      "SAS"
+    ],
+    "Descript": [
+      "Descript"
+    ],
+    "Quantum Choice from Plexis": [
+      "Quantum Choice from Plexis"
+    ],
+    "Azure": [
+      "Microsoft"
+    ],
+    "Pearson Assessments": [
+      "Pearson Assessments"
+    ],
+    "TruNarc, Smiths Detection": [
+      "Smiths Detection",
+      "TruNarc"
+    ],
+    "Advanced Technologies Group": [
+      "Advanced Technologies Group"
+    ],
+    "UpToDate": [
+      "UpToDate"
+    ],
+    "Buzz sprout": [
+      "Buzz sprout"
+    ],
+    "Exiger": [
+      "Exiger"
+    ],
+    "Microsoft, OpenAI": [
+      "Microsoft",
+      "OpenAI"
+    ],
+    "Nuance Communications (owned by Microsoft)": [
+      "Microsoft"
+    ],
+    "Informatica": [
+      "Informatica"
+    ],
+    "Inonde, NetDocuments": [
+      "Inonde",
+      "NetDocuments"
+    ],
+    "Hootsuite": [
+      "Hootsuite"
+    ],
+    "Lexis Nexis": [
+      "LexisNexis"
+    ],
+    "Techsmith": [
+      "TechSmith"
+    ],
+    "Westlaw": [
+      "Thomson Reuters"
+    ],
+    "Amazon Web Services": [
+      "Amazon"
+    ],
+    "Freedom Scientific Inc.": [
+      "Freedom Scientific Inc"
+    ],
+    "OnCue Technology, LLC": [
+      "OnCue Technology"
+    ],
+    "Levit & James, acquired by Litera": [
+      "James",
+      "Levit",
+      "acquired by Litera"
+    ],
+    "Axon Enterprise, Inc.": [
+      "Axon"
+    ],
+    "Skydio": [
+      "Skydio"
+    ],
+    "Vendor proprietary": [
+      "Vendor proprietary"
+    ],
+    "Rank One Computing": [
+      "Rank One Computing"
+    ],
+    "TechSmith": [
+      "TechSmith"
+    ],
+    "Virtual Acquisition Office (VAO) Ally": [
+      "Virtual Acquisition Office (VAO) Ally"
+    ],
+    "Aware Technologies": [
+      "Aware Technologies"
+    ],
+    "1605TA-21-F-00064": [
+      "1605TA-21-F-00064"
+    ],
+    "DOLQ129633247": [
+      "DOLQ129633247"
+    ],
+    "ResolveSoft 1605TA-25-F-00018": [
+      "ResolveSoft 1605TA-25-F-00018"
+    ],
+    "Synergy PIID: 1605DC19A0004\nAzure PIID: NNG15SD60B": [
+      "Microsoft",
+      "Synergy"
+    ],
+    "AWS PIID: NNG15SD22B\nSynergy PIID: 1605DC19A0004": [
+      "Amazon",
+      "Synergy"
+    ],
+    "BGC/CLIRIO": [
+      "BGC",
+      "CLIRIO"
+    ],
+    "Azure PIID: NNG15SD60B": [
+      "Microsoft"
+    ],
+    "GSA": [
+      "GSA"
+    ],
+    "OpenAI; Anthropic; Google; xAI; Perplexity; Microsoft": [
+      "Anthropic",
+      "Google",
+      "Microsoft",
+      "OpenAI",
+      "Perplexity",
+      "xAI"
+    ],
+    "Civic Roundtable": [
+      "Civic Roundtable"
+    ],
+    "Groundswell": [
+      "Groundswell"
+    ],
+    "University of Chicago Energy and Environment Lab": [
+      "Environment Lab",
+      "University of Chicago Energy"
+    ],
+    "Savan Group": [
+      "Savan Group"
+    ],
+    "Microsoft Azure Open AI, Securigence": [
+      "Microsoft",
+      "Securigence"
+    ],
+    "Personnel Decisions Research Institutes, LLC (PDRI)": [
+      "LLC (PDRI",
+      "Personnel Decisions Research Institutes"
+    ],
+    "Equifax, Trans Union": [
+      "Equifax",
+      "Trans Union"
+    ],
+    "CLEAR": [
+      "Thomson Reuters"
+    ],
+    "Meltwater": [
+      "Meltwater"
+    ],
+    "Deloitte": [
+      "Deloitte"
+    ],
+    "Chainalysis": [
+      "Chainalysis"
+    ],
+    "Adobe, Auto Split, Microsoft, Scan Writer, Social Discovery": [
+      "Adobe",
+      "Auto Split",
+      "Microsoft",
+      "Scan Writer",
+      "Social Discovery"
+    ],
+    "Zvolvant (Small Business)": [
+      "Zvolvant (Small Business"
+    ],
+    "VAO Ally": [
+      "VAO Ally"
+    ],
+    "Cisco": [
+      "Cisco"
+    ],
+    "Citrix": [
+      "Citrix"
+    ],
+    "Kiteworks": [
+      "Kiteworks"
+    ],
+    "Flowmon": [
+      "Flowmon"
+    ],
+    "Commonlook Online": [
+      "Commonlook Online"
+    ],
+    "Knowbe4 Phish ER": [
+      "Knowbe4 Phish ER"
+    ],
+    "WestLaw": [
+      "Thomson Reuters"
+    ],
+    "Benefits Manager": [
+      "Benefits Manager"
+    ],
+    "Third Party Vendor": [
+      "Third Party Vendor"
+    ],
+    "Cloud Discovery Source (CDS) Relativity": [
+      "Cloud Discovery Source (CDS) Relativity"
+    ],
+    "MIT Lincoln Labs": [
+      "MIT Lincoln Labs"
+    ],
+    "Amazon Connect (current)\n\nOneReach (previous, deprecated)": [
+      "Amazon",
+      "OneReach (previous",
+      "deprecated"
+    ],
+    "Lumivero, Qualtrics,  Credal, Ask Sage": [
+      "Ask Sage",
+      "Credal",
+      "Lumivero",
+      "Qualtrics"
+    ],
+    "Credal": [
+      "Credal"
+    ],
+    "Palantir, Credal": [
+      "Credal",
+      "Palantir"
+    ],
+    "Credal, Ask Sage, Microsoft": [
+      "Ask Sage",
+      "Credal",
+      "Microsoft"
+    ],
+    "Palantir Technologies": [
+      "Palantir"
+    ],
+    "RIVA Solutions": [
+      "RIVA Solutions"
+    ],
+    "Unison": [
+      "Unison"
+    ],
+    "Internal Federal Shared Service (GrantSolutions)": [],
+    "Communications Training & Analysis Corporation (CTAC)": [
+      "Analysis Corporation (CTAC",
+      "Communications Training"
+    ],
+    "LaserAI": [
+      "LaserAI"
+    ],
+    "UIPath": [
+      "UiPath"
+    ],
+    "L&M Policy Research, LLC": [
+      "L",
+      "M Policy Research"
+    ],
+    "Skyward Solutions": [
+      "Skyward Solutions"
+    ],
+    "commonFont and AWS": [
+      "Amazon",
+      "commonFont"
+    ],
+    "Oddball and AWS": [
+      "Amazon",
+      "Oddball"
+    ],
+    "Skyward IT Solutions": [
+      "Skyward IT Solutions"
+    ],
+    "Noblis": [
+      "Noblis"
+    ],
+    "Connsci and OpenAI": [
+      "Connsci",
+      "OpenAI"
+    ],
+    "GDIT": [
+      "GDIT"
+    ],
+    "Peraton, Inc.": [
+      "Peraton"
+    ],
+    "SAIC": [
+      "SAIC"
+    ],
+    "In-house (CDER staff) and contractor teams": [],
+    "In-house (CDER staff)": [],
+    "Contractor teams": [],
+    "NCTR": [
+      "NCTR"
+    ],
+    "Emerald Innovations": [
+      "Emerald Innovations"
+    ],
+    "ThinkTrends": [
+      "ThinkTrends"
+    ],
+    "In-house": [],
+    "Trigent Solutions Inc, Digitrix LLC": [
+      "Digitrix LLC",
+      "Trigent Solutions Inc"
+    ],
+    "Druid": [
+      "Druid"
+    ],
+    "Precise": [
+      "Precise"
+    ],
+    "Precise Software Solutions, Inc.": [
+      "Precise Software Solutions"
+    ],
+    "Google Translate API / MLaaS / Azure": [
+      "Google",
+      "MLaaS",
+      "Microsoft"
+    ],
+    "Milestone": [
+      "Milestone"
+    ],
+    "Mindpetal": [
+      "Mindpetal"
+    ],
+    "Publicis Sapient": [
+      "Publicis Sapient"
+    ],
+    "GDIT Inc": [
+      "GDIT"
+    ],
+    "Digital Science": [
+      "Digital Science"
+    ],
+    "Leidos and Highrise": [
+      "Highrise",
+      "Leidos"
+    ],
+    "Google; Barnacle": [
+      "Barnacle",
+      "Google"
+    ],
+    "H2O.GPTe": [
+      "H2O.GPTe"
+    ],
+    "development -- Oak Ridge National Lab; maintenance -- Information Management Services (IMS)": [
+      "development -- Oak Ridge National Lab",
+      "maintenance -- Information Management Services (IMS"
+    ],
+    "Lexical Intelligence, LLC": [
+      "Lexical Intelligence"
+    ],
+    "Deloitte, Guidehouse, Research Data and Communication Technologies Corp.": [
+      "Communication Technologies Corp",
+      "Deloitte",
+      "Guidehouse",
+      "Research Data"
+    ],
+    "Leica": [
+      "Leica"
+    ],
+    "Google DeepMind": [
+      "Google"
+    ],
+    "Structura Biotechnology": [
+      "Structura Biotechnology"
+    ],
+    "Andor": [
+      "Andor"
+    ],
+    "http://cov-lineages.org;  https://pangolin.cog-uk.io/": [
+      "cov-lineages.org",
+      "http:",
+      "https:",
+      "pangolin.cog-uk.io"
+    ],
+    "Technatomy Axle": [
+      "Technatomy Axle"
+    ],
+    "Axle Informatics, Microsoft, OpenAI": [
+      "Axle Informatics",
+      "Microsoft",
+      "OpenAI"
+    ],
+    "Palantir Technologies deployed application within Foundry": [
+      "Palantir"
+    ],
+    "Shabash": [
+      "Shabash"
+    ],
+    "Deloitte, AWS": [
+      "Amazon",
+      "Deloitte"
+    ],
+    "Microsoft Azure, Westat": [
+      "Microsoft",
+      "Westat"
+    ],
+    "Summome": [
+      "Summome"
+    ],
+    "Infer Solutions": [
+      "Infer Solutions"
+    ],
+    "ICF, DataSurge": [
+      "DataSurge",
+      "ICF"
+    ],
+    "Tyler Technologies": [
+      "Tyler Technologies"
+    ],
+    "MicroHealth": [
+      "MicroHealth"
+    ],
+    "Business Performance Systems": [
+      "Business Performance Systems"
+    ],
+    "Deloitte Consulting, LLC": [
+      "Deloitte"
+    ],
+    "Ernst & Young": [
+      "Ernst",
+      "Young"
+    ],
+    "Medallia; Qualtrics": [
+      "Medallia",
+      "Qualtrics"
+    ],
+    "Skillsoft Percipio": [
+      "Skillsoft Percipio"
+    ],
+    "Cortina": [
+      "Cortina"
+    ],
+    "NLP": [
+      "NLP"
+    ],
+    "FAA": [
+      "FAA"
+    ],
+    "Element 84": [
+      "Element 84"
+    ],
+    "Mitchell Vantage Systems (MVS), subcontracted to Astrion": [
+      "Mitchell Vantage Systems (MVS",
+      "subcontracted to Astrion"
+    ],
+    "Raytheon": [
+      "Raytheon"
+    ],
+    "Milestone, Genetec, Verkada, Lenel": [
+      "Genetec",
+      "Lenel",
+      "Milestone",
+      "Verkada"
+    ],
+    "LexisNexus": [
+      "LexisNexus"
+    ],
+    "Canva": [
+      "Canva"
+    ],
+    "Articulate": [
+      "Articulate"
+    ],
+    "TekSynap": [
+      "TekSynap"
+    ],
+    "Air Force Research Lab": [
+      "Air Force Research Lab"
+    ],
+    "Dataminer": [
+      "Dataminer"
+    ],
+    "OPEXUS": [
+      "OPEXUS"
+    ],
+    "To be determined": [
+      "To be determined"
+    ],
+    "Perplexity AI, Inc.": [
+      "Perplexity"
+    ],
+    "Grammarly, Inc.": [
+      "Grammarly"
+    ],
+    "Aretec": [
+      "Aretec"
+    ],
+    "Aretec, Elder Research": [
+      "Aretec",
+      "Elder Research"
+    ],
+    "Elder Research": [
+      "Elder Research"
+    ],
+    "RELX": [
+      "LexisNexis"
+    ],
+    "Aretec Inc": [
+      "Aretec"
+    ],
+    "Flashpoint": [
+      "Flashpoint"
+    ],
+    "SkillSoft": [
+      "SkillSoft"
+    ],
+    "RELX (Lexis)": [
+      "LexisNexis"
+    ],
+    "West Publishing": [
+      "West Publishing"
+    ],
+    "Hyperscience": [
+      "Hyperscience"
+    ],
+    "Microsoft / OpenAI": [
+      "Microsoft",
+      "OpenAI"
+    ],
+    "AveriSource": [
+      "AveriSource"
+    ],
+    "ServiceNow\nAWS": [
+      "Amazon",
+      "ServiceNow"
+    ],
+    "Microsoft - M365 Copilot Chat": [
+      "Microsoft"
+    ],
+    "ID.me": [
+      "ID.me"
+    ],
+    "Dynatrace": [
+      "Dynatrace"
+    ],
+    "Espyr/Acentra": [
+      "Acentra",
+      "Espyr"
+    ],
+    "Skillsoft/Percipio": [
+      "Percipio",
+      "Skillsoft"
+    ],
+    "Adobe, Articulate, and Vyond": [
+      "Adobe",
+      "Articulate",
+      "Vyond"
+    ],
+    "RWS": [
+      "RWS"
+    ],
+    "Guidehouse": [
+      "Guidehouse"
+    ],
+    "GCP": [
+      "GCP"
+    ],
+    "LexisNexis, ChatGPT": [
+      "LexisNexis",
+      "OpenAI"
+    ],
+    "Microsoft, Databricks, ZenPoint": [
+      "Databricks",
+      "Microsoft",
+      "ZenPoint"
+    ],
+    "Palantir, OpenAI": [
+      "OpenAI",
+      "Palantir"
+    ],
+    "Deloitte, AzureAI": [
+      "AzureAI",
+      "Deloitte"
+    ],
+    "ProcureSight": [
+      "ProcureSight"
+    ],
+    "Precision Sustainable Agriculture Group, North Carolina State University": [
+      "North Carolina State University",
+      "Precision Sustainable Agriculture Group"
+    ],
+    "Spatial Front Incorporated": [
+      "Spatial Front Incorporated"
+    ],
+    "UIPath Studio": [
+      "UiPath"
+    ],
+    "Accenture": [
+      "Accenture"
+    ],
+    "Mountain View Business Group Services": [
+      "Mountain View Business Group Services"
+    ],
+    "RedCastle Resources": [
+      "RedCastle Resources"
+    ],
+    "Esri": [
+      "Esri"
+    ],
+    "Chiral Software": [
+      "Chiral Software"
+    ],
+    "Oregon State University": [
+      "Oregon State University"
+    ],
+    "Wildfire.org": [
+      "Wildfire.org"
+    ],
+    "University of Washington": [
+      "University of Washington"
+    ],
+    "Kikaha Solutions, LLC": [
+      "Kikaha Solutions"
+    ],
+    "GAIA AI": [
+      "GAIA AI"
+    ],
+    "American Museum of Natural History": [
+      "American Museum of Natural History"
+    ],
+    "University of Washington - Natural Resource Spatial Informatics Group": [
+      "University of Washington - Natural Resource Spatial Informatics Group"
+    ],
+    "Booz Allen Hamilton": [
+      "Booz Allen Hamilton"
+    ],
+    "ACCRETE AI Government": [
+      "ACCRETE AI Government"
+    ],
+    "GlobalComm": [
+      "GlobalComm"
+    ],
+    "Steampunk": [
+      "Steampunk"
+    ],
+    "Expert AI (Cogito)": [
+      "Expert AI (Cogito"
+    ],
+    "Coleridge Institute": [
+      "Coleridge Institute"
+    ],
+    "George Mason University": [
+      "George Mason University"
+    ],
+    "Google Cloud, University of Montana, New Mexico State University": [
+      "Google",
+      "New Mexico State University",
+      "University of Montana"
+    ]
+  },
+  "microsoft_by_agency": {
+    "DHS": {
+      "n": 95,
+      "microsoft": 6
+    },
+    "DOE": {
+      "n": 127,
+      "microsoft": 50
+    },
+    "DOI": {
+      "n": 20,
+      "microsoft": 4
+    },
+    "DOJ": {
+      "n": 133,
+      "microsoft": 13
+    },
+    "HHS": {
+      "n": 137,
+      "microsoft": 8
+    },
+    "SEC": {
+      "n": 19,
+      "microsoft": 0
+    },
+    "SSA": {
+      "n": 21,
+      "microsoft": 7
+    },
+    "STATE": {
+      "n": 20,
+      "microsoft": 5
+    },
+    "USDA": {
+      "n": 34,
+      "microsoft": 2
+    }
+  }
+}

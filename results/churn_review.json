@@ -1,0 +1,362 @@
+[
+ {
+  "i": 228,
+  "agency": "DOC",
+  "name_2024": "AI Rain Rate estimation",
+  "verdict": "rename"
+ },
+ {
+  "i": 164,
+  "agency": "DHS",
+  "name_2024": "Testing Performance of ML Model using H2O",
+  "verdict": "retired_in_2024"
+ },
+ {
+  "i": 52,
+  "agency": "DHS",
+  "name_2024": "Mobile Traveler Identity Verification",
+  "verdict": "rename"
+ },
+ {
+  "i": 1717,
+  "agency": "VA",
+  "name_2024": "Chatbot within ESMS",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 584,
+  "agency": "EPA",
+  "name_2024": "Extracting references from technical documents",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 1419,
+  "agency": "FRB",
+  "name_2024": "Recommendation Engine",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 535,
+  "agency": "DOL",
+  "name_2024": "Camtasia",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 1833,
+  "agency": "DOJ",
+  "name_2024": "Data & Analytics Tools: Publicly-Available 10",
+  "verdict": "rename"
+ },
+ {
+  "i": 119,
+  "agency": "DHS",
+  "name_2024": "CFO Companion",
+  "verdict": "rename"
+ },
+ {
+  "i": 344,
+  "agency": "DOI",
+  "name_2024": "Enhancing Migratory Bird Surveys with Thermal Imagery and Deep Learning",
+  "verdict": "rename"
+ },
+ {
+  "i": 883,
+  "agency": "HUD",
+  "name_2024": "Automating Draft Counterparty Credit Narrative Reports",
+  "verdict": "rename"
+ },
+ {
+  "i": 1391,
+  "agency": "FRB",
+  "name_2024": "Newsfeed Data Processing",
+  "verdict": "rename"
+ },
+ {
+  "i": 609,
+  "agency": "GSA",
+  "name_2024": "Test Fit Layouts",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 581,
+  "agency": "EPA",
+  "name_2024": "Resource Conservation and Recovery Act (RCRA) Predictive Analytics",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 374,
+  "agency": "DOI",
+  "name_2024": "National Temperature Observations",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 2002,
+  "agency": "ED",
+  "name_2024": "Generative AI Usage",
+  "verdict": "rename"
+ },
+ {
+  "i": 2129,
+  "agency": "NCUA",
+  "name_2024": "Coding",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 999,
+  "agency": "TREAS",
+  "name_2024": "Automated Underreporter (AUR) Voicebot",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 2016,
+  "agency": "ED",
+  "name_2024": "Generative AI Usage",
+  "verdict": "rename"
+ },
+ {
+  "i": 170,
+  "agency": "DHS",
+  "name_2024": "Topic Modeling on Request For Evidence (RFE) Data Sets",
+  "verdict": "retired_in_2024"
+ },
+ {
+  "i": 2034,
+  "agency": "ED",
+  "name_2024": "Generative AI Usage",
+  "verdict": "rename"
+ },
+ {
+  "i": 750,
+  "agency": "HHS",
+  "name_2024": "News from commercial publisher such as Google News",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 2029,
+  "agency": "ED",
+  "name_2024": "Generative AI Usage",
+  "verdict": "rename"
+ },
+ {
+  "i": 1569,
+  "agency": "VA",
+  "name_2024": "Ordr",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 1810,
+  "agency": "DOJ",
+  "name_2024": "Camtasia - Auto Captioning ",
+  "verdict": "rename"
+ },
+ {
+  "i": 551,
+  "agency": "DOL",
+  "name_2024": "Adobe Creative Cloud and Adobe Product Suite",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 1696,
+  "agency": "VA",
+  "name_2024": "VA CART Percutaneous Coronary Intervention Nephropathy Model ",
+  "verdict": "rename"
+ },
+ {
+  "i": 1764,
+  "agency": "DOJ",
+  "name_2024": "Bloomberg Government - AKA BGOV",
+  "verdict": "rename"
+ },
+ {
+  "i": 1198,
+  "agency": "USDA",
+  "name_2024": "OCIO/CDO Council Comment Analysis Tool",
+  "verdict": "rename"
+ },
+ {
+  "i": 2010,
+  "agency": "ED",
+  "name_2024": "Generative AI Usage",
+  "verdict": "rename"
+ },
+ {
+  "i": 470,
+  "agency": "DOI",
+  "name_2024": "Merbok Supplemental",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 543,
+  "agency": "DOL",
+  "name_2024": "Microsoft Authenticator Mobile App",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 366,
+  "agency": "DOI",
+  "name_2024": "Nutrient, Salinity, and temperature model development",
+  "verdict": "rename"
+ },
+ {
+  "i": 1517,
+  "agency": "VA",
+  "name_2024": "Medallia SaaS - VSignals and ESignals",
+  "verdict": "rename"
+ },
+ {
+  "i": 770,
+  "agency": "HHS",
+  "name_2024": "Development of automation tools and data warehouse to facilitate BE assessments",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 817,
+  "agency": "HHS",
+  "name_2024": "DEXTR - automated data extraction tool",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 634,
+  "agency": "HHS",
+  "name_2024": "Entity Resolution Tool",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 600,
+  "agency": "GSA",
+  "name_2024": "Classifying Qualitative Data with Medallia",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 795,
+  "agency": "HHS",
+  "name_2024": "AI-enabled landscape analysis of New Approach Methodologies (NAMs) in biomedical research literature",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 40,
+  "agency": "DHS",
+  "name_2024": "Traveler Verification Service (TVS)",
+  "verdict": "retired_in_2024"
+ },
+ {
+  "i": 1021,
+  "agency": "TREAS",
+  "name_2024": "Technical Demo of Large Language Models for Code Development",
+  "verdict": "rename"
+ },
+ {
+  "i": 839,
+  "agency": "HHS",
+  "name_2024": "MTIX",
+  "verdict": "rename"
+ },
+ {
+  "i": 1610,
+  "agency": "VA",
+  "name_2024": "HTM-LLM",
+  "verdict": "rename"
+ },
+ {
+  "i": 632,
+  "agency": "HHS",
+  "name_2024": "Emergency Inventory Redistribution Model",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 2117,
+  "agency": "NCUA",
+  "name_2024": "Native Editor",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 72,
+  "agency": "DHS",
+  "name_2024": "Cyber Vulnerability Reporting",
+  "verdict": "retired_in_2024"
+ },
+ {
+  "i": 249,
+  "agency": "DOE",
+  "name_2024": "CrowdStrike",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 492,
+  "agency": "DOI",
+  "name_2024": "Generative AI to Improve Visitor Experience on NPS.gov",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 1627,
+  "agency": "VA",
+  "name_2024": "Vitrea CT Brain Perfusion",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 913,
+  "agency": "NSF",
+  "name_2024": "Enhancing TIP Awards: Efficient Tagging for the 10 Key Technology Areas (KTA)",
+  "verdict": "rename"
+ },
+ {
+  "i": 1983,
+  "agency": "DOJ",
+  "name_2024": "Route Optimizer - JMIS",
+  "verdict": "rename"
+ },
+ {
+  "i": 1350,
+  "agency": "FERC",
+  "name_2024": "Leverage AI in the Rulemaking Process Use Case ",
+  "verdict": "rename"
+ },
+ {
+  "i": 2122,
+  "agency": "NCUA",
+  "name_2024": "Visual Content Creator",
+  "verdict": "no_successor_cots_likely"
+ },
+ {
+  "i": 487,
+  "agency": "DOI",
+  "name_2024": "Machine Learning Applied to Geotechnical Engineering: Statistical Methods Applied to Seismic Analysis 1",
+  "verdict": "rename"
+ },
+ {
+  "i": 1009,
+  "agency": "TREAS",
+  "name_2024": "Economic Impact Payment (EIP) FAQ Voicebot",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 1997,
+  "agency": "ED",
+  "name_2024": "Generative AI Usage",
+  "verdict": "rename"
+ },
+ {
+  "i": 334,
+  "agency": "DOI",
+  "name_2024": "Azure based Internal Controls Testing App for Award Descriptions",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 1590,
+  "agency": "VA",
+  "name_2024": "IVC Access Transformation Transformative Care Modalities VA Health Connect Using Machine Learning to Evaluate First Contact Resolution (FCR)",
+  "verdict": "rename"
+ },
+ {
+  "i": 423,
+  "agency": "DOI",
+  "name_2024": "Modeling Sediment Abundance in the Eastern Snake River Plain Aquifer Using Supervised Learning",
+  "verdict": "no_successor"
+ },
+ {
+  "i": 988,
+  "agency": "STATE",
+  "name_2024": "TOPIQ",
+  "verdict": "retired_in_2024"
+ }
+]

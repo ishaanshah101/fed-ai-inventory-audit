@@ -1,0 +1,73 @@
+{
+  "n_items": 844,
+  "n_judgements": 1688,
+  "fields": {
+    "category": {
+      "alpha": 0.850419393165576,
+      "observed_agreement": 0.9170616113744076
+    },
+    "decision_role": {
+      "alpha": 0.7772363842837431,
+      "observed_agreement": 0.8815165876777251
+    },
+    "stage": {
+      "alpha": 0.3724505106238809,
+      "observed_agreement": 0.6812796208530806
+    },
+    "quantified": {
+      "alpha": 0.9750174004472285,
+      "observed_agreement": 0.9988151658767772
+    },
+    "metric_named": {
+      "alpha": 0.7086041239339307,
+      "observed_agreement": 0.9620853080568721
+    },
+    "evaluation_described": {
+      "alpha": 0.7521385660180226,
+      "observed_agreement": 0.9786729857819905
+    },
+    "baseline_given": {
+      "alpha": 0.8523284313725491,
+      "observed_agreement": 0.990521327014218
+    },
+    "uncertainty_given": {
+      "alpha": 0.5427440776277976,
+      "observed_agreement": 0.9940758293838863
+    }
+  },
+  "reading_high_impact": {
+    "observed_agreement": 0.9383886255924171,
+    "alpha": 0.8639381080007942,
+    "n_agreed": 792,
+    "n_disputed": 52,
+    "n_agreed_true": 266,
+    "n_agreed_false": 526,
+    "psa_true": 0.910958904109589
+  },
+  "reading_principal_only": {
+    "observed_agreement": 0.9917061611374408,
+    "alpha": 0.8529591214154982,
+    "n_agreed": 837,
+    "n_disputed": 7,
+    "n_agreed_true": 21,
+    "n_agreed_false": 816,
+    "psa_true": 0.8571428571428571
+  },
+  "category_pairs_top": {
+    "none|none": 519,
+    "f|f": 98,
+    "j|j": 81,
+    "m|m": 36,
+    "j|none": 23,
+    "a|a": 10,
+    "n|n": 9,
+    "m|none": 7,
+    "g|g": 6,
+    "a|none": 6,
+    "h|h": 5,
+    "o|o": 5,
+    "f|none": 4,
+    "j|k": 4,
+    "a|j": 4
+  }
+}

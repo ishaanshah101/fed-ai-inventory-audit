@@ -1,0 +1,2080 @@
+[
+{
+"row": 34,
+"id": "DHS-2380",
+"numerals": [
+"25,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 44,
+"id": "DHS-2538",
+"numerals": [
+"19"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 46,
+"id": "DHS-2570",
+"numerals": [
+"2 hours"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 74,
+"id": "DHS-399",
+"numerals": [
+"10"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 107,
+"id": "DHS-2711",
+"numerals": [
+"15",
+"20",
+"40",
+"45",
+"60",
+"70%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 109,
+"id": "DHS-2296",
+"numerals": [
+"80",
+"80%",
+"90%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 110,
+"id": "DHS-2441",
+"numerals": [
+"80",
+"90%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 149,
+"id": "DHS-2427",
+"numerals": [
+"585831413174038"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 156,
+"id": "DHS-2424",
+"numerals": [
+"02",
+"24"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 201,
+"id": "DHS-135",
+"numerals": [
+"50%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 223,
+"id": "DHS-55",
+"numerals": [
+"11",
+"98",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 229,
+"id": "DHS-56",
+"numerals": [
+"11",
+"98"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 230,
+"id": "DHS-16",
+"numerals": [
+"589",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 231,
+"id": "DHS-2385",
+"numerals": [
+"539",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 508,
+"id": "DOE-665",
+"numerals": [
+"20"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 512,
+"id": "DOE-450",
+"numerals": [
+"51"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 581,
+"id": "DOE-574",
+"numerals": [
+"2023"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 609,
+"id": "DOE-483",
+"numerals": [
+"2025"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 620,
+"id": "DOE-593",
+"numerals": [
+"365"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 637,
+"id": "DOE-699",
+"numerals": [
+"2025"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 672,
+"id": "DOE-494",
+"numerals": [
+"56,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 689,
+"id": "DOE-452",
+"numerals": [
+"365"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 718,
+"id": "DOE-433",
+"numerals": [
+"365"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 855,
+"id": "DOI-0180",
+"numerals": [
+"000",
+"13,000",
+"200",
+"29,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 871,
+"id": "DOI-0242",
+"numerals": [
+"1980"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 875,
+"id": "DOI-0238",
+"numerals": [
+"65%",
+"78%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 900,
+"id": "DOI-0213",
+"numerals": [
+"2000",
+"5 days"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 914,
+"id": "DOI-0199",
+"numerals": [
+"2008",
+"2020"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 942,
+"id": "DOI-0168",
+"numerals": [
+"34",
+"35",
+"four"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 950,
+"id": "DOI-0159",
+"numerals": [
+"03",
+"15",
+"31091",
+"82"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 951,
+"id": "DOI-0158",
+"numerals": [
+"12%",
+"22%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 961,
+"id": "DOI-0148",
+"numerals": [
+"16",
+"35",
+"four"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 972,
+"id": "DOI-0137",
+"numerals": [
+"5 day",
+"5 days",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 977,
+"id": "DOI-0132",
+"numerals": [
+"4.5x"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 992,
+"id": "DOI-0115",
+"numerals": [
+"00072.1",
+"10.2112",
+"20",
+"24"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1001,
+"id": "DOI-0105",
+"numerals": [
+"30 days"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1007,
+"id": "DOI-0095",
+"numerals": [
+"30"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1025,
+"id": "DOI-0075",
+"numerals": [
+"18"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1031,
+"id": "DOI-0069",
+"numerals": [
+"20"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1034,
+"id": "DOI-0066",
+"numerals": [
+"1985",
+"one",
+"three"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1064,
+"id": "DOJ-0015",
+"numerals": [
+"236"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1065,
+"id": "DOJ-0016",
+"numerals": [
+"000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1173,
+"id": "DOJ-0107",
+"numerals": [
+"24"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1272,
+"id": "DOJ-0163",
+"numerals": [
+"10",
+"99",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1345,
+"id": "DOJ-0228",
+"numerals": [
+"2000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1356,
+"id": "DOJ-0319",
+"numerals": [
+"508"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1359,
+"id": "DOJ-0330",
+"numerals": [
+"508"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1371,
+"id": "DOL-36",
+"numerals": [
+"20"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1378,
+"id": "DOL-27",
+"numerals": [
+"2018",
+"five"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1404,
+"id": "DOL-13",
+"numerals": [
+"908",
+"929"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1412,
+"id": "DOT-1000001",
+"numerals": [
+"10",
+"24",
+"three"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1427,
+"id": "DOT-1000008",
+"numerals": [
+"10"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1477,
+"id": "EAC-2",
+"numerals": [
+"365"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1547,
+"id": "75",
+"numerals": [
+"2017",
+"2021",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1683,
+"id": "FRB-0013",
+"numerals": [
+"2024"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1713,
+"id": "",
+"numerals": [
+"63",
+"800",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1752,
+"id": "",
+"numerals": [
+"2024"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1753,
+"id": "",
+"numerals": [
+"2024",
+"30,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1758,
+"id": "",
+"numerals": [
+"70"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1759,
+"id": "",
+"numerals": [
+"4 years",
+"500",
+"a quarter"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1760,
+"id": "",
+"numerals": [
+"400"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1770,
+"id": "",
+"numerals": [
+"14151",
+"14168"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1771,
+"id": "",
+"numerals": [
+"14151",
+"14168"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1772,
+"id": "",
+"numerals": [
+"50"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1785,
+"id": "",
+"numerals": [
+"2010"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1786,
+"id": "",
+"numerals": [
+"2010"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1800,
+"id": "",
+"numerals": [
+"2020",
+"Two",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1815,
+"id": "",
+"numerals": [
+"19",
+"4 weeks"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1818,
+"id": "",
+"numerals": [
+"01203",
+"10.1128",
+"24"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1819,
+"id": "",
+"numerals": [
+"$2",
+"200 hours",
+"24 hours",
+"40,000",
+"million"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1828,
+"id": "",
+"numerals": [
+"2012",
+"2022"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1829,
+"id": "",
+"numerals": [
+"40,000",
+"500%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1831,
+"id": "",
+"numerals": [
+"000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1834,
+"id": "",
+"numerals": [
+"10",
+"70",
+"75%",
+"85%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1835,
+"id": "",
+"numerals": [
+"19"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1839,
+"id": "",
+"numerals": [
+"000",
+"19"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1841,
+"id": "",
+"numerals": [
+"600 times"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1844,
+"id": "",
+"numerals": [
+"056",
+"20",
+"four"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1848,
+"id": "",
+"numerals": [
+"19"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1849,
+"id": "",
+"numerals": [
+"24 hours",
+"30 seconds"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1852,
+"id": "",
+"numerals": [
+"10%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1853,
+"id": "",
+"numerals": [
+"889"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1854,
+"id": "",
+"numerals": [
+"180"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1877,
+"id": "",
+"numerals": [
+"98%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1878,
+"id": "",
+"numerals": [
+"25"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1881,
+"id": "",
+"numerals": [
+"5 billion",
+"billion"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1882,
+"id": "",
+"numerals": [
+"317"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1892,
+"id": "",
+"numerals": [
+"000",
+"15,000",
+"200",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1894,
+"id": "",
+"numerals": [
+"30 minutes",
+"92%",
+"94%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1896,
+"id": "",
+"numerals": [
+"10",
+"105",
+"2025",
+"7/1",
+"8/1"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1897,
+"id": "",
+"numerals": [
+"41",
+"5 minutes",
+"60 minutes",
+"one",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1917,
+"id": "",
+"numerals": [
+"40",
+"800"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1925,
+"id": "",
+"numerals": [
+"2567"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1982,
+"id": "",
+"numerals": [
+"30",
+"80%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1988,
+"id": "",
+"numerals": [
+"3938"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 1999,
+"id": "",
+"numerals": [
+"12 months",
+"19",
+"2017"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2001,
+"id": "",
+"numerals": [
+"3500"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2010,
+"id": "",
+"numerals": [
+"483"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2027,
+"id": "",
+"numerals": [
+"30",
+"35.29x",
+"97.08%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2038,
+"id": "",
+"numerals": [
+"000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2043,
+"id": "",
+"numerals": [
+"276 hours",
+"73"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2044,
+"id": "",
+"numerals": [
+"10"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2047,
+"id": "",
+"numerals": [
+"000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2080,
+"id": "",
+"numerals": [
+"$1"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2083,
+"id": "",
+"numerals": [
+"10 million",
+"2006",
+"million"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2143,
+"id": "",
+"numerals": [
+"40%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2158,
+"id": "",
+"numerals": [
+"000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2181,
+"id": "",
+"numerals": [
+"508"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2183,
+"id": "",
+"numerals": [
+"1000",
+"160",
+"2026",
+"24",
+"60",
+"80%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2184,
+"id": "",
+"numerals": [
+"25%",
+"3 months",
+"6 months",
+"600%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2206,
+"id": "HUD-2025-001",
+"numerals": [
+"365"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2208,
+"id": "NARA - 0002",
+"numerals": [
+"2 million",
+"million"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2210,
+"id": "NARA - 0004",
+"numerals": [
+"2025",
+"26"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2261,
+"id": "NASA-401",
+"numerals": [
+"100,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2263,
+"id": "NASA-526",
+"numerals": [
+"99"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2431,
+"id": "NASA-848",
+"numerals": [
+"2 hours",
+"2 minutes",
+"3 hours",
+"40.5",
+"5 km",
+"510",
+"60 times",
+"600",
+"675",
+"745"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2433,
+"id": "NASA-850",
+"numerals": [
+"10.5",
+"45.5",
+"5 km",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2442,
+"id": "NASA-861",
+"numerals": [
+"$2",
+"$3",
+"$5",
+"10%",
+"2 weeks",
+"2.5 months",
+"50%",
+"85%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2475,
+"id": "NASA-900",
+"numerals": [
+"2024"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2500,
+"id": "NASA-214",
+"numerals": [
+"2022"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2503,
+"id": "NASA-221",
+"numerals": [
+"100"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2514,
+"id": "NASA-244",
+"numerals": [
+"2020",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2519,
+"id": "NASA-451",
+"numerals": [
+"50"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2530,
+"id": "NASA-798",
+"numerals": [
+"2874"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2649,
+"id": "NCUA-12-2025",
+"numerals": [
+"13"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2671,
+"id": "49",
+"numerals": [
+"365"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2681,
+"id": "53",
+"numerals": [
+"365"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2706,
+"id": "SBA-29",
+"numerals": [
+"14179",
+"21",
+"25"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2749,
+"id": "SEC-47",
+"numerals": [
+"10"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2812,
+"id": "",
+"numerals": [
+"831"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2816,
+"id": "",
+"numerals": [
+"800"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2822,
+"id": "",
+"numerals": [
+"43"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2834,
+"id": "",
+"numerals": [
+"1995",
+"1999",
+"80%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2844,
+"id": "",
+"numerals": [
+"2021"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2870,
+"id": "",
+"numerals": [
+"653"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2875,
+"id": "",
+"numerals": [
+"200"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2894,
+"id": "BEP-1",
+"numerals": [
+"24"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2928,
+"id": "TREAS-125",
+"numerals": [
+"121004",
+"3 years",
+"34",
+"990"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2939,
+"id": "TREAS-85",
+"numerals": [
+"140",
+"180",
+"2022",
+"300"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2941,
+"id": "TREAS-98",
+"numerals": [
+"8275",
+"One",
+"three"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2942,
+"id": "TREAS-99",
+"numerals": [
+"19",
+"One",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2948,
+"id": "TREAS-IRS-117",
+"numerals": [
+"100"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2957,
+"id": "TREAS-IRS-4",
+"numerals": [
+"1120",
+"253",
+"4 million",
+"500",
+"million"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2963,
+"id": "TREAS-IRS-56",
+"numerals": [
+"260 hours",
+"Two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2969,
+"id": "TREAS-IRS-64",
+"numerals": [
+"100",
+"50"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 2980,
+"id": "TREAS-IRS-9",
+"numerals": [
+"10945",
+"62901"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3087,
+"id": "USDA-048",
+"numerals": [
+"100",
+"120",
+"30",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3123,
+"id": "USDA-064",
+"numerals": [
+"41"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3138,
+"id": "USDA-019",
+"numerals": [
+"15,000",
+"1985",
+"2024"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3139,
+"id": "USDA-021",
+"numerals": [
+"1000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3140,
+"id": "USDA-051",
+"numerals": [
+"10",
+"1981",
+"20",
+"2010",
+"2070",
+"2099",
+"30"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3159,
+"id": "USDA-089",
+"numerals": [
+"200,000",
+"30"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3176,
+"id": "USDA-135",
+"numerals": [
+"2023"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3178,
+"id": "USDA-137",
+"numerals": [
+"2000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3179,
+"id": "USDA-138",
+"numerals": [
+"1500"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3182,
+"id": "USDA-141",
+"numerals": [
+"60,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3189,
+"id": "USDA-148",
+"numerals": [
+"500 million",
+"million"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3192,
+"id": "USDA-151",
+"numerals": [
+"1000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3198,
+"id": "USDA-157",
+"numerals": [
+"30"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3199,
+"id": "USDA-158",
+"numerals": [
+"28"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3203,
+"id": "USDA-162",
+"numerals": [
+"12",
+"2020",
+"2023"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3204,
+"id": "USDA-163",
+"numerals": [
+"20"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3205,
+"id": "USDA-164",
+"numerals": [
+"286"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3206,
+"id": "USDA-165",
+"numerals": [
+"14179",
+"One"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3208,
+"id": "USDA-167",
+"numerals": [
+"25"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3221,
+"id": "USDA-001",
+"numerals": [
+"14,000",
+"500"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3225,
+"id": "USDA-022",
+"numerals": [
+"578"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3243,
+"id": "USDA-046",
+"numerals": [
+"75,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3245,
+"id": "VA-24-1938",
+"numerals": [
+"24 hours",
+"30%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3250,
+"id": "VA-24-1815",
+"numerals": [
+"$2"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3251,
+"id": "VA-25-1020",
+"numerals": [
+"1102",
+"12",
+"2023",
+"76%",
+"94%",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3296,
+"id": "VA-25-5101",
+"numerals": [
+"50"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3302,
+"id": "VA-24-1897",
+"numerals": [
+"508",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3308,
+"id": "VA-25-967",
+"numerals": [
+"10",
+"162 days",
+"61",
+"70,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3341,
+"id": "VA-24-2184",
+"numerals": [
+"40,000",
+"six",
+"ten"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3344,
+"id": "VA-24-4763",
+"numerals": [
+"2 million",
+"2024",
+"500",
+"95",
+"million"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3346,
+"id": "VA-24-2545",
+"numerals": [
+"160,000",
+"25,000",
+"4 days",
+"hundred"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3433,
+"id": "VA-24-3898",
+"numerals": [
+"05",
+"50%",
+"6 years",
+"80",
+"one",
+"six years"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3434,
+"id": "VA-24-421",
+"numerals": [
+"20%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3436,
+"id": "VA-25-5375",
+"numerals": [
+"100,000",
+"5-year",
+"85%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3439,
+"id": "VA-24-294",
+"numerals": [
+"120,000"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3444,
+"id": "VA-24-1069",
+"numerals": [
+"400",
+"600"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3445,
+"id": "VA-24-1237",
+"numerals": [
+"800"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3446,
+"id": "VA-24-1397",
+"numerals": [
+"57%",
+"58%",
+"89%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3448,
+"id": "VA-24-1684",
+"numerals": [
+"21%",
+"4%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3451,
+"id": "VA-24-1848",
+"numerals": [
+"0%",
+"100%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3455,
+"id": "VA-24-2754",
+"numerals": [
+"18"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3457,
+"id": "VA-24-3205",
+"numerals": [
+"10"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3469,
+"id": "VA-24-4152",
+"numerals": [
+"2023",
+"22%",
+"4 months"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3472,
+"id": "VA-24-4234",
+"numerals": [
+"2017"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3474,
+"id": "VA-24-4279",
+"numerals": [
+"40",
+"50",
+"60",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3482,
+"id": "VA-24-4648",
+"numerals": [
+"14"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3493,
+"id": "VA-24-5140",
+"numerals": [
+"25",
+"30"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3495,
+"id": "VA-24-5222",
+"numerals": [
+"18"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3497,
+"id": "VA-24-5427",
+"numerals": [
+"1200"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3500,
+"id": "VA-24-5501",
+"numerals": [
+"90",
+"90 day"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3502,
+"id": "VA-24-5542",
+"numerals": [
+"30"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3503,
+"id": "VA-24-5583",
+"numerals": [
+"30"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3506,
+"id": "VA-24-5714",
+"numerals": [
+"2200",
+"one"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3512,
+"id": "VA-24-6042",
+"numerals": [
+"65",
+"one minute"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3513,
+"id": "VA-25-1506",
+"numerals": [
+"14"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3514,
+"id": "VA-25-1891",
+"numerals": [
+"9600",
+"three",
+"two"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3516,
+"id": "VA-25-2168",
+"numerals": [
+"80",
+"90%"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3519,
+"id": "VA-25-4280",
+"numerals": [
+"20 minutes",
+"35 seconds"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3527,
+"id": "VA-24-1323",
+"numerals": [
+"24",
+"365"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3539,
+"id": "VA-24-3418",
+"numerals": [
+"700"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3540,
+"id": "VA-24-3738",
+"numerals": [
+"10 day",
+"3542"
+],
+"v1": true,
+"v2_only": false
+},
+{
+"row": 3553,
+"id": "VA-25-4",
+"numerals": [
+"24",
+"80%"
+],
+"v1": true,
+"v2_only": false
+}
+]
