@@ -1,0 +1,1062 @@
+fields:
+  #Section 1: Use Case Identifiers
+  - name: 2_use_case_name
+    type: string
+    description: "Title of the AI use case."
+    constraints:
+      required: true
+
+  - name: 3_agency
+    type: string
+    description: "Agency responsible for the AI use case."
+    constraints:
+      required: true
+
+  - name: 3_abr
+    type: string
+    description: "Agency abbreviation."
+    constraints:
+      required: true
+
+  - name: 4_bureau
+    type: string
+    description: "Specific organization(s) within the agency responsible for the AI use case."
+    constraints:
+      required: true
+
+  - name: 8_topic_area
+    type: string
+    description: "The topic area that most closely aligns with the AI use case."
+    constraints:
+      required: true
+      enum: ["Government Services (includes Benefits and Service Delivery)",
+      "Diplomacy & Trade", 
+      "Education & Workforce", 
+      "Energy & the Environment",
+      "Emergency Management",
+      "Health & Medical",
+      "Law & Justice",
+      "Science & Space",
+      "Transportation", 
+      "Mission-Enabling"]
+
+  - name: 8_question_type
+    type: string
+    description: "The topic area that most closely aligns with the AI use case."
+    constraints:
+      enum: ["Standard", "Other"]
+
+  - name: 10_commercial_ai
+    type: string
+    description: "Whether the use case is implemented solely with the commercial-off-the-shelf or freely available AI products identified in Appendix B."
+    constraints:
+      required: true
+      enum: ["Inputting large amounts of data from paper forms into a digital system using AI.", 
+      "Identifying and cataloging items in a storage room using AI-driven image recognition.", 
+      "Transcribing and summarizing a recorded meeting or interview using AI.", 
+      "Scheduling meetings or appointments or setting reminders using AI.", 
+      "Prioritizing and categorizing incoming emails using AI.", 
+      "Scheduling and managing social media posts using AI.", 
+      "Logging and analyzing time spent on tasks using AI-powered time management tools.", 
+      "Identifying unusual patterns in system logs from a single incident report using AI.", 
+      "Summarizing the key points of a lengthy report using AI.", 
+      "Searching for information using AI.", 
+      "Digitizing text from scanned documents or smart forms for archival purposes using AI.", 
+      "Improving the quality of written communications using AI tools.", 
+      "Collaborating in real-time using AI-assisted tools in word processors.", 
+      "Creating visually appealing presentations using AI-driven design suggestions.", 
+      "Creating visual representations of data sets for reports and presentations using AI.", 
+      "Curating news articles and updates based on user preferences using AI.", 
+      "Planning travel routes using AI-driven map applications.", 
+      "Finding and booking travel accommodations using AI-powered platforms.", 
+      "Unlocking smartphones or other devices without the need for passwords or PINs using AI-based facial recognition technology.", 
+      "None of the Above"]
+
+  - name: 11_purpose_benefits
+    type: string
+    description: "Description of the AI’s intended purpose, including: (1) what problem the AI is used to solve and (2) the expected benefits and positive outcomes from the AI for an agency’s mission and/or the general public."
+    constraints:
+      required: true
+
+  - name: 12_outputs
+    type: string
+    description: "Description of what the AI system outputs, whether it’s a prediction, recommendation, decision, etc."
+    constraints:
+      required: true
+
+  - name: 16_dev_stage
+    type: string
+    description: "The current stage of System Development Life Cycle (SDLC) for the AI use case (See System Development Life Cycle (SDLC) - Glossary | NIST CSRC)."
+    constraints:
+      required: true
+      enum: ["Initiated", 
+      "Acquisition and/or Development", 
+      "Implementation and Assessment", 
+      "Operation and Maintenance", 
+      "Retired"]
+
+  - name: 17_impact_type
+    type: string
+    description: "Whether the AI use case is rights-impacting or safety-impacting, as defined in Section 6 of OMB Memorandum M-24-10. Note also that Appendix I of that memorandum lists categories of use cases that are presumed by default to impact rights and safety. If your use case falls into those lists, you must not answer “neither” to this question without a formal determination made by your agency’s Chief AI Officer, pursuant to Section 5(b) of OMB Memorandum M-24-10."
+    constraints:
+      required: true
+      enum: ["Rights-Impacting", "Safety-Impacting", "Both", "Neither"]
+
+  #Section 2: Use Case Summary
+  - name: 18_date_initiated
+    type: string #MM/YYYY
+    description: "Date when the AI use case’s purpose and high-level requirements were first defined."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Initiated"
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+
+  - name: 19_date_acq_dev_began
+    type: string #MM/YYY
+    description: "Date when the acquisition and/or development of the AI system associated with the use case first began."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+    
+  - name: 20_date_implemented
+    type: string #MM/YYY
+    description: "Date when the AI use case was fully implemented and deployed into use."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+
+  - name: 21_date_retired
+    type: string #MM/YYY
+    description: "Date when the AI use case was retired or began the process of retirement."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "equals"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Retired"
+
+  - name: 22_dev_method
+    type: string
+    description: "Whether the AI system involved in the use case was developed, or is expected to be developed, exclusively with contracting resources, in-house, or a combination of both."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Developed with contracting resources.", "Developed in-house.", "Developed with both contracting and in-house resources."]
+
+  - name: 23_contract_piids
+    type: string
+    description: "Identification of the Procurement Instrument Identifier(s) (PIID) of the contract(s) used for the AI use case."
+    conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "22_dev_method"
+            if_values:
+              - "Developed with contracting resources."
+              - "Developed with both contracting and in-house resources."
+
+  - name: 24_hisp_support
+    type: string
+    description: "Whether the AI use case supports a High-Impact Service Provider (HISP) public-facing service. The full list of HISP public-facing services can be found at https://www.performance.gov/cx/hisps/."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 25_hisp_name
+    type: string
+    description: "Identification of the High-Impact Service Provider (HISP) that the AI use case supports."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "24_hisp_support"
+            if_values:
+              - "Yes"
+      enum: ["Bureau of Consular Affairs", 
+      "Bureau of Indian Affairs", 
+      "Bureau of Trust Funds Administration", 
+      "Centers for Medicare & Medicaid Services", 
+      "Community Development Financial Institutions (CDFI) Fund", 
+      "Customs and Border Protection", 
+      "Defense Counterintelligence and Security Agency", 
+      "Departmental Offices", 
+      "Employee Benefits Security Administration – DOL", 
+      "Employment and Training Administration – DOL", 
+      "Farm Service Agency – USDA", 
+      "Federal Emergency Management Agency – DHS", 
+      "Federal Employment Service – OPM", 
+      "Federal Student Aid – ED", 
+      "Fish and Wildlife Service – DOI", 
+      "Food and Nutrition Service – USDA", 
+      "Forest Service – USDA", 
+      "Housing and Urban Development – HUD", 
+      "Indian Health Service – HHS", 
+      "Internal Revenue Service – TREAS", 
+      "International Trade Administration – DOC", 
+      "National Park Service – DOI", 
+      "Natural Resources Conservation Service – USDA", 
+      "Occupational Safety and Health Administration – DOL", 
+      "Office of Workers' Compensation Programs – DOL",  
+      "Public Experience Portfolio – GSA", 
+      "Recreation.gov – USDA", 
+      "Retirement Services – OPM", 
+      "Rural Development – USDA", 
+      "Small Business Administration – SBA", 
+      "Social Security Administration – SSA", 
+      "Transportation Security Administration – DHS", 
+      "U.S. Agency for International Development – USAID", 
+      "U.S. Citizenship and Immigration Services – DHS", 
+      "United States Census Bureau", 
+      "United States Patent and Trademark Office", 
+      "Veterans Benefits Administration", 
+      "Veterans Health Administration"]
+
+  - name: 26_public_service
+    type: string
+    description: "Identification of the specific public-facing service that the AI use case supports."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "24_hisp_support"
+            if_values:
+              - "Yes"
+      enum: ["Public-facing", "Not public-facing"]
+
+  - name: 27_public_info
+    type: string
+    description: "Whether the AI use case disseminates information to the public."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 28_iqa_compliance
+    type: string
+    description: "Description of how the agency is ensuring that this AI use case is compliant with Information Quality Act guidelines and OMB Memorandum M-19-15, if applicable."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "27_public_info"
+            if_values:
+              - "Yes"
+
+  - name: 29_contains_pii
+    type: string
+    description: "Whether the AI use case involves personally identifiable information (PII), as defined in OMB Circular A-130."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 30_saop_review
+    type: string
+    description: "Whether the agency’s Senior Agency Official for Privacy (SAOP) has assessed the privacy risks associated with this AI use case. "
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+#Section 3: Data and Code
+  - name: 31_data_catalog
+    type: string
+    description: "Whether the AI use case made use of agency-wide infrastructure to quickly identify the right datasets to begin model development."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 31_question_type
+    type: string
+    description: "Explanation for whether the AI use case made use of agency-wide infrastructure to quickly identify the rights datasets to begin model development."
+    constraints:
+      enum: ["Standard", "Other"]
+
+  - name: 33_agency_data
+    type: string
+    description: "General description of the data used for training, fine-tuning, and evaluation of the AI use case’s model(s). This should include a description of any data provided by the agency, whether the datasets are research datasets, publicly available, external, etc. and to the extent possible, sufficiently descriptive information from the vendor."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+
+  - name: 34_data_docs
+    type: string
+    description: "Whether the data has sufficient documentation of its integrity, quality, and validity as a training set for a specific task."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Documentation is missing or not available: No documentation exists regarding maintenance, composition, quality, or intended use of the training and evaluation data.", 
+      "Documentation has been partially completed: Some documentation exists (detailing the composition and any statistical bias or measurement skew for training and evaluation purposes), but documentation took place within this use case's development.", 
+      "Documentation is complete: Documentation exists regarding the maintenance, composition, quality, and intended use of the training and evaluation data, as well as any statistical bias across model features and protected groups.", 
+      "Documentation is widely available: Documentation is not only complete, but is widely accessible within the agency, and has an owner and a regular update cadence."]
+
+  - name: 35_demo_features
+    type: string
+    description: "Identification of the demographic features explicitly utilized in the AI use case’s data/model(s), if any."
+    constraints:
+      custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Race/Ethnicity", 
+      "Sex/Gender", 
+      "Age", 
+      "Religious Affiliation", 
+      "Socioeconomic Status", 
+      "Ability Status", 
+      "Residency Status", 
+      "Marital Status", 
+      "Income", 
+      "Employment Status",
+      "Other",
+      "None"]
+
+  - name: 35_question_type
+    type: string
+    description: "Identification of the other demographic features explicitly utilized in the AI use case’s data/model(s), if any."
+    constraints:
+      enum: ["Standard", "Other"]
+
+  - name: 37_custom_code
+    type: string
+    description: "Whether this AI project includes custom-developed code."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 38_code_access
+    type: string
+    description: "Whether the agency has access to the code associated with the AI use case."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes – agency has access to source code, but it is not public.", 
+      "Yes – source code is publicly available.", 
+      "No – agency does not have access to source code."]
+
+  - name: 39_code_link
+    type: string
+    description: "Link to publicly available source code for the AI use case, if available, in alignment with OMB Memorandum M-24-10’s section on sharing."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "38_code_access"
+            if_values:
+              - "Yes – source code is publicly available."
+
+#Section 4: Enablement and Infrastructure
+  - name: 40_has_ato
+    type: string
+    description: "Whether the AI use case itself has an associated Authority to Operate (ATO), or is part of a system that has an ATO."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 41_system_name
+    type: string
+    description: "Name of the system(s) associated with this AI use case, according to the ATO."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "40_has_ato"
+            if_values:
+              - "Yes"
+
+  - name: 42_dev_tools_wait
+    type: string
+    description: "Estimated length of time the AI project waited for basic computing and developer tools to build machine learning models. This includes Government Furnished Equipment (GFE), along with access to open-source code libraries, frameworks, and other coding software or developer environments."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Less than 6 months", "6-12 months", "More than 12 months"]
+
+  - name: 43_infra_provisioned
+    type: string
+    description: "Whether the required IT infrastructure is identified and provisioned via a centralized process (such as a unified intake form) that enables product owners and developers to find the right development environment inside the agency."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 43_question_type
+    type: string
+    description: "Explanation for whether the required IT infrastructure is identified and provisioned via a centralized process (such as a unified intake form) that enables product owners and developers to find the right development environment inside the agency."
+    constraints:
+      enum: ["Standard", "Other"]
+
+  - name: 45_compute_request
+    type: string
+    description: "Explanation for whether the AI use case has an identifiable process to request computing resources (such as cloud computing credits or computing hardware) to develop and test models."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 45_question_type
+    type: string
+    description: "Whether communication regarding the provisioning of requested resources for the AI use case has been timely."
+    constraints:
+      enum: ["Standard", "Other"]
+
+  - name: 47_timely_resources
+    type: string
+    description: ""
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["Yes", "No"]
+
+  - name: 47_question_type
+    type: string
+    description: "Explanation for whether communication regarding the provisioning of requested resources for the AI use case has been timely."
+    constraints:
+      enum: ["Standard", "Other"]
+      
+  - name: 49_existing_reuse
+    type: string
+    description: "Whether the AI use case promotes re-use of existing infrastructure to promote AI development."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["None: This use case does not re-use any internally developed tooling or managed infrastructure from any other AI development efforts within the agency.", 
+      "Use of existing data platforms: This use case is being developed on existing enterprise data and analytics platforms within the agency rather than procuring additional platforms or SaaS to operate.", 
+      "Re-use production level code from a different use-case: This use case re-uses production level code and/or internally developed code libraries for model development from existing AI systems or repositories inside the agency.", 
+      "Re-use production level code and/or data products: This use case re-uses production level code as well as data products that have been published or made widely available for data science teams for within the agency."]
+
+  - name: 50_internal_review
+    type: string
+    description: "Whether information regarding the AI use case has been made widely accessible within the agency."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "equals"
+            if_field: "10_commercial_ai"
+            if_values:
+              - "None of the Above"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Acquisition and/or Development"
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+      enum: ["No documentation is available: No documentation detailing model performance metrics, model architecture, features and intended use of the models have been created or are currently accessible to other data science teams within the agency.", 
+      "Limited documentation for review: Some information regarding the model's performance on specific benchmarks are available or have been shared with specific stakeholders within the agency.", 
+      "Documentation has been developed: Complete documentation detailing model performance across a range of benchmarks, architecture, relevant features and information regarding the appropriate use of the model for predictive tasks has been created.", 
+      "Documentation has been published: Complete documentation has been published to a repository or data catalog within the agency and is made accessible to other data science teams for review and feedback."]
+
+#Section 5: Risk Management
+  - name: 51_extension_request
+    type: string
+    description: "Whether the agency requested an extension for this AI use case, in response to the CAIO’s request, of up to one year for the minimum requirements outlined in Section 5 of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Safety-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+        enum: ["Yes", "No"]
+
+  - name: 52_impact_assessment
+    type: string
+    description: "Whether an AI impact assessment for the AI use case has been completed, consistent with Section 5(c)(iv)(A) of OMB Memorandum M-24-10. This assessment should document at least the intended purpose for the AI and its expected benefits, the potential risks of using the AI, and the quality and appropriateness of the relevant data."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Safety-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["Yes", "Planned or in-progress.", "No", "Agency CAIO has waived this minimum practice and reported such waiver to OMB."]
+
+  - name: 53_real_world_testing
+    type: string
+    description: "Whether the AI use case has been tested for performance in a real-world environment to understand its potential impact on individual(s) or communities, consistent with Section 5(c)(iv)(B) of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Safety-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["No testing: No testing of the model to simulate performance in an operational environment has been conducted thus far.", 
+      "Benchmark evaluation: Testing of the AI model has involved the use of benchmarks (either publicly available or internally created) to estimate performance in real-world settings, but has not been tested in an operational environment.", 
+      "Performance evaluation in operational environment: The AI use case has been tested in an operational environment before being fully implemented as a solution, or has been tested in simulated or controlled environment using operational or synthetic data.", 
+      "Impact evaluation in operational environment: The AI use case has been tested in an operational environment before being fully implemented as a solution and has utilized randomized experiments with a control group or other counterfactual, social systems analysis, or other rigorous research methodologies to evaluate impact and identify potential harm to users as well as broader groups of people.", 
+      "Agency CAIO has waived this minimum practice and reported such waiver to OMB."]
+
+  - name: 54_key_risks
+    type: string
+    description: "Identification of the reasonably foreseeable risks from using the AI use case, to include the risk of inequitable outcomes for individuals. This can be informed by publicly known risks identified in similar use cases or contexts. Examples of such risks include at least physical injury, emotional/psychological injury, opportunity loss, economic loss, privacy loss, environmental impact, or civil rights and civil liberties impact."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Safety-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      
+  - name: 55_independent_eval
+    type: string
+    description: "Whether an independent evaluation of the AI use case has been conducted through the CAIO, an agency AI oversight board, or other appropriate agency office with existing test and evaluation responsibilities, consistent with Section 5(c)(iv)(C) of OMB Memorandum M-24-10. The independent reviewing authority must not have been directly involved in the AI system’s development."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Safety-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["Yes – by the CAIO", 
+      "Yes – by an agency AI oversight board not directly involved in the system's development", 
+      "Yes – by another appropriate agency office that was not directly involved in the system's development", 
+      "Planned or in-progress", 
+      "Agency CAIO has waived this minimum practice and reported such waiver to OMB."]
+
+  - name: 56_monitor_postdeploy
+    type: string
+    description: "Whether there’s an established process for monitoring performance of the AI system’s functionality and changes to its impact on rights and/or safety, including, if relevant, the risk of AI-enabled discrimination, consistent with Section 5(c)(iv)(D) of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Safety-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["No monitoring protocols have been established: Necessary infrastructure needed to perform monitoring of AI systems in production is not available and/or a plan to monitor models has not yet been established.", 
+      "Intermittent and Manually Updated: A plan for monitoring the AI use case is in place, and requires data science teams to work with DevOps engineers to manually update models at scheduled intervals, and create metrics to detect data distribution shifts between the operational environment and the training data for the model.", 
+      "Automated and Regularly Scheduled Updates: Some aspects of the plan to monitor the AI system post-deployment are automated including re-training of models after detecting drift; however, data science teams are still significantly involved in the monitoring and re-deployment process.", 
+      "Established Process of Machine Learning Operations: Alongside automated testing and drift detection, model re-training and re-deployments are supported by continuous integration pipelines that are managed by machine learning and data engineers on the platform, adapting work done by data science team into repeatable scripts for re-training and re-testing a model once deployed."]
+
+  - name: 57_autonomous_impact  
+    type: string
+    description: "Whether the agency has determined that the AI can carry out its individual core decisions or actions that could result in a significant impact on rights and safety without direct human involvement. The answer should not be “yes” if humans are not reviewing individual decisions and are only overseeing or reviewing the performance of the system in general."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Safety-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["Yes - All individual decisions or actions are automated and may be rendered without direct human interaction.", "No - Some individual decisions or actions require direct human oversight."]
+      
+  - name: 57_question_type
+    type: string
+    description: "How the agency is providing reasonable and timely notice regarding the use of AI, consistent with Section 5(c)(iv)(I) of OMB Memorandum M-24-10."
+    constraints:
+      enum: ["Standard", "Other"]
+
+  - name: 59_ai_notice
+    type: string
+    description: "How the agency is providing reasonable and timely notice regarding the use of AI, consistent with Section 5(c)(iv)(I) of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Safety-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["N/A – individuals are not interacting with the AI for this use case.", 
+      "Online - in the terms or instructions for the service.", 
+      "Email", 
+      "In-person", 
+      "Mail", 
+      "Telephone", 
+      "None of the above", 
+      "Agency CAIO has waived this minimum practice and reported such waiver to OMB."] 
+
+  - name: 59_question_type
+    type: string
+    description: "Whether the AI use case significantly influences the outcome of an adverse decision or action, consistent with Section 5(c)(v)(D) of OMB Memorandum M-24-10. Examples include the denial of benefits or deeming a transaction fraudulent."
+    constraints:
+      enum: ["Standard", "Other"]
+
+  - name: 61_adverse_impact
+    type: string
+    description: "How the agency has assessed whether there are significant disparities in the AI’s performance across demographic groups, including in the AI’s real-world deployment, consistent with Section 5(c)(v)(A) of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["Yes", "No"]
+      
+  - name: 62_disparity_mitigation
+    type: string
+    description: "How the agency has consulted affected groups, including underserved communities, in the design, development, and use of the AI, consistent with Section 5(c)(v)(B) of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+
+  - name: 63_stakeholder_consult
+    type: string
+    description: "How the agency has consulted affected groups, including underserved communities, in the design, development, and use of the AI, consistent with Section 5(c)(v)(B) of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["Direct user testing", 
+      "General solicitations of comments from the public", 
+      "Post-transaction customer feedback collections", 
+      "Public hearings or meetings", 
+      "Outreach to relevant labor organizations", 
+      "None of the above", 
+      "Agency CAIO has waived this minimum practice and reported such waiver to OMB."]
+
+  - name: 63_question_type
+    type: string
+    description: "How the agency has consulted affected groups, including underserved communities, in the design, development, and use of the AI, consistent with Section 5(c)(v)(B) of OMB Memorandum M-24-10."
+    constraints:
+      enum: ["Standard", "Other"]    
+      
+  - name: 65_appeal_process
+    type: string
+    description: "Whether the agency has established a fallback and escalation process, which may include reverting to manual human processes, in the event that an impacted individual would like to appeal or contest an AI system’s outcome, consistent with Section 5(c)(v)(E) of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["Yes", "No – it is not operationally practical to offer this. (Please explain.)", 
+      "No – Law, operational limitations, or governmentwide guidance precludes an opportunity for an individual to appeal. (Please explain.)", 
+      "Agency CAIO has waived this minimum practice and reported such waiver to OMB."]
+
+  - name: 66_no_appeal_reason
+    type: string
+    description: "Why the agency does not have an established fallback and escalation process."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+          - logic: "or"
+            if_field: "65_appeal_process"
+            if_values:
+              - "No – it is not operationally practical to offer this. (Please explain.)"
+              - "No – Law, operational limitations, or governmentwide guidance precludes an opportunity for an individual to appeal. (Please explain.)"
+
+  - name: 67_opt_out
+    type: string
+    description: "Whether the agency has established an opt-out mechanism, consistent with Section 5(c)(v)(F) of OMB Memorandum M-24-10."
+    custom_constraints:
+      conditional_required:
+        logic: "and"
+        conditions:
+          - logic: "or"
+            if_field: "17_impact_type"
+            if_values:
+              - "Rights-Impacting"
+              - "Both"
+          - logic: "or"
+            if_field: "16_dev_stage"
+            if_values:
+              - "Implementation and Assessment"
+              - "Operation and Maintenance"
+          - logic: "equals"
+            if_field: "51_extension_request"
+            if_values:
+              - "No"
+      enum: ["Yes", 
+      "No – This AI use case is not subject to the opt-out requirement because the AI functionality is solely used for the prevention, detection, and investigation of fraud or cybersecurity incidents, or the conduct of a criminal investigation.", 
+      "No – There is law or governmentwide guidance that restricts opt-out for this context.", 
+      "Agency CAIO has waived this minimum practice and reported such waiver to OMB."]
+      
+  - name: 67_question_type 
+    type: string
+    description: "Whether the agency has established an opt-out mechanism, consistent with Section 5(c)(v)(F) of OMB Memorandum M-24-10. "
+    constraints:
+      enum: ["Standard", "Other"]     
