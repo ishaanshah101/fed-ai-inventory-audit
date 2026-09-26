@@ -1,0 +1,7 @@
+{
+  "seed": 20260926,
+  "cap_not_high_impact_per_agency": 30,
+  "n_live_with_text": 1450,
+  "n_sampled": 844,
+  "redaction_tokens": 789
+}
