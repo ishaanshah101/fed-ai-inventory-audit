@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+# OMB source files are kept byte-for-byte so their recorded SHA-256 stays valid
+data/raw/*.csv binary
+data/raw/*.yaml binary
+data/raw/*.md binary
