@@ -1,0 +1,710 @@
+[
+ {
+  "did": "A001",
+  "rid": 449,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A002",
+  "rid": 827,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A003",
+  "rid": 165,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A004",
+  "rid": 64,
+  "rep": 1,
+  "prior": "not"
+ },
+ {
+  "did": "A005",
+  "rid": 649,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A006",
+  "rid": 571,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A007",
+  "rid": 218,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A008",
+  "rid": 130,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A009",
+  "rid": 43,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A010",
+  "rid": 751,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A011",
+  "rid": 741,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A012",
+  "rid": 589,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A013",
+  "rid": 693,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A014",
+  "rid": 400,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A015",
+  "rid": 271,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A016",
+  "rid": 99,
+  "rep": 1,
+  "prior": "not"
+ },
+ {
+  "did": "A017",
+  "rid": 280,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A018",
+  "rid": 578,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A019",
+  "rid": 272,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A020",
+  "rid": 585,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A021",
+  "rid": 380,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A022",
+  "rid": 188,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A023",
+  "rid": 633,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A024",
+  "rid": 718,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A025",
+  "rid": 71,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A026",
+  "rid": 537,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A027",
+  "rid": 579,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A028",
+  "rid": 485,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A029",
+  "rid": 196,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A030",
+  "rid": 794,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A031",
+  "rid": 175,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A032",
+  "rid": 64,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A033",
+  "rid": 574,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A034",
+  "rid": 556,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A035",
+  "rid": 739,
+  "rep": 1,
+  "prior": "not"
+ },
+ {
+  "did": "A036",
+  "rid": 228,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A037",
+  "rid": 739,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A038",
+  "rid": 588,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A039",
+  "rid": 52,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A040",
+  "rid": 538,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A041",
+  "rid": 667,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A042",
+  "rid": 333,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A043",
+  "rid": 783,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A044",
+  "rid": 313,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A045",
+  "rid": 298,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A046",
+  "rid": 206,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A047",
+  "rid": 391,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A048",
+  "rid": 606,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A049",
+  "rid": 147,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A050",
+  "rid": 41,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A051",
+  "rid": 719,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A052",
+  "rid": 193,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A053",
+  "rid": 275,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A054",
+  "rid": 588,
+  "rep": 1,
+  "prior": "high"
+ },
+ {
+  "did": "A055",
+  "rid": 471,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A056",
+  "rid": 133,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A057",
+  "rid": 672,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A058",
+  "rid": 622,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A059",
+  "rid": 808,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A060",
+  "rid": 814,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A061",
+  "rid": 494,
+  "rep": 1,
+  "prior": "high"
+ },
+ {
+  "did": "A062",
+  "rid": 374,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A063",
+  "rid": 698,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A064",
+  "rid": 590,
+  "rep": 1,
+  "prior": "disputed"
+ },
+ {
+  "did": "A065",
+  "rid": 84,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A066",
+  "rid": 793,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A067",
+  "rid": 608,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A068",
+  "rid": 243,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A069",
+  "rid": 19,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A070",
+  "rid": 237,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A071",
+  "rid": 610,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A072",
+  "rid": 347,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A073",
+  "rid": 591,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A074",
+  "rid": 158,
+  "rep": 1,
+  "prior": "high"
+ },
+ {
+  "did": "A075",
+  "rid": 386,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A076",
+  "rid": 482,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A077",
+  "rid": 35,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A078",
+  "rid": 569,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A079",
+  "rid": 129,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A080",
+  "rid": 160,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A081",
+  "rid": 114,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A082",
+  "rid": 211,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A083",
+  "rid": 99,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A084",
+  "rid": 62,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A085",
+  "rid": 191,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A086",
+  "rid": 431,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A087",
+  "rid": 660,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A088",
+  "rid": 643,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A089",
+  "rid": 405,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A090",
+  "rid": 392,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A091",
+  "rid": 158,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A092",
+  "rid": 590,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A093",
+  "rid": 286,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A094",
+  "rid": 15,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A095",
+  "rid": 702,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A096",
+  "rid": 489,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A097",
+  "rid": 154,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A098",
+  "rid": 438,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A099",
+  "rid": 784,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A100",
+  "rid": 136,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A101",
+  "rid": 722,
+  "rep": 0,
+  "prior": "disputed"
+ },
+ {
+  "did": "A102",
+  "rid": 94,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A103",
+  "rid": 392,
+  "rep": 1,
+  "prior": "disputed"
+ },
+ {
+  "did": "A104",
+  "rid": 232,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A105",
+  "rid": 376,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A106",
+  "rid": 604,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A107",
+  "rid": 494,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A108",
+  "rid": 162,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A109",
+  "rid": 749,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A110",
+  "rid": 350,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A111",
+  "rid": 367,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A112",
+  "rid": 297,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A113",
+  "rid": 61,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A114",
+  "rid": 691,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A115",
+  "rid": 688,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A116",
+  "rid": 121,
+  "rep": 0,
+  "prior": "not"
+ },
+ {
+  "did": "A117",
+  "rid": 678,
+  "rep": 0,
+  "prior": "high"
+ },
+ {
+  "did": "A118",
+  "rid": 34,
+  "rep": 0,
+  "prior": "high"
+ }
+]

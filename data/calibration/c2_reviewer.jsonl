@@ -1,0 +1,305 @@
+{"did": "B001", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B002", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "22% more hotspots, 12% fewer false positives; comparator and data unstated"}
+{"did": "B003", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B004", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "performance is in a linked paper, not in the text"}
+{"did": "B005", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "validation counties described, no figure"}
+{"did": "B006", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B007", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B008", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "4.5x more earthquakes than human review; no dataset or period"}
+{"did": "B009", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B010", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B011", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B012", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B013", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "accuracy generally >98%; no data or period"}
+{"did": "B014", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "training data described, no figure"}
+{"did": "B015", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B016", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B017", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": false, "uncertainty_given": false, "note": "30% of Pre-Need applicants get determinations within 24 hours; population named, no period or comparator"}
+{"did": "B018", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B019", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "$2m saved, 200 hours reduced; no period stated for the saving"}
+{"did": "B020", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B021", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B022", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "evaluation is in a linked paper, not in the text"}
+{"did": "B023", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B024", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B025", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "up to 80% labor reduction, projected"}
+{"did": "B026", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B027", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "volumes processed, not performance"}
+{"did": "B028", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B029", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "inquiry count, not performance"}
+{"did": "B030", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B031", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B032", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "85% is clinical survival, not AI performance"}
+{"did": "B033", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B034", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B035", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B036", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B037", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B038", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "alarm and touch rates down 50%; comparator unstated"}
+{"did": "B039", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B040", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "volumes processed, not performance"}
+{"did": "B041", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "time searching materials reduced by over 80%"}
+{"did": "B042", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B043", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B044", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B045", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B046", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B047", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B048", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B049", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B050", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "dashboard user count"}
+{"did": "B051", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B052", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B053", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B054", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B055", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B056", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B057", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "hardware sensitivity claim without a number"}
+{"did": "B058", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B059", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": false, "uncertainty_given": false, "note": "22% reduction in all-cause mortality within 4 months, cited to a published evaluation; comparator not stated in text"}
+{"did": "B060", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "clinical prevalence, not AI performance"}
+{"did": "B061", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B062", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B063", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B064", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B065", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B066", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B067", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": false, "uncertainty_given": false, "note": "R^2 > 0.99 on test and validation datasets against FEA; early work"}
+{"did": "B068", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B069", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B070", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B071", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "distribution time from 24 hours to 30 seconds"}
+{"did": "B072", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B073", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "backlog size, not performance"}
+{"did": "B074", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "auto-coding rate from 70-75% to over 85%; stated as expected"}
+{"did": "B075", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B076", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B077", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B078", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B079", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B080", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B081", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B082", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "performance in linked paper only"}
+{"did": "B083", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B084", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B085", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B086", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B087", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B088", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "record volume"}
+{"did": "B089", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "0%/100% are display artefacts, no figure"}
+{"did": "B090", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "runtime from ~2 hours to ~2 minutes, ~60x"}
+{"did": "B091", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B092", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B093", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B094", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B095", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B096", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "35.29x faster than manual, 97.08% burden reduction"}
+{"did": "B097", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B098", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B099", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B100", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B101", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B102", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "58% time reduction, 89% success rate, 57% fewer clicks; no data or period"}
+{"did": "B103", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B104", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": true, "uncertainty_given": false, "note": "78% validation accuracy vs 65% for logistic regression and boosting, on stream PFAS data"}
+{"did": "B105", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B106", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B107", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B108", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": false, "uncertainty_given": false, "note": "94% of prompts successful in an internal study, 92% of SMEs report gains; population is prompts in an internal study, no N or period"}
+{"did": "B109", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B110", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B111", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B112", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B113", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "backlog and delay figures describe the problem, not the AI"}
+{"did": "B114", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B115", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B116", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B117", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B118", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "$20B cost avoidance realized so far"}
+{"did": "B119", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B120", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B121", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "25% of auditor time redirected, projected"}
+{"did": "B122", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B123", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B124", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B125", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B126", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "train and test set sizes, no figure"}
+{"did": "B127", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B128", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B129", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B130", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B131", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": true, "uncertainty_given": false, "note": "21% increase in odds of adenoma detection, +4% ADR, randomized implementation across facilities vs colonoscopy without CADe; no interval"}
+{"did": "B132", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B133", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "volume consolidated, accuracy evaluation mentioned without a number"}
+{"did": "B134", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B135", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": true, "uncertainty_given": false, "note": "response time for lower-complexity cases from over a month to under 4 days, over 25,000 cases since deployment"}
+{"did": "B136", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B137", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "volumes reviewed, not performance"}
+{"did": "B138", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B139", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B140", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "orders-of-magnitude claim without a number"}
+{"did": "B141", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B142", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "potential user count"}
+{"did": "B143", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B144", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B145", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B146", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B147", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": false, "uncertainty_given": false, "note": "estimated 276 hours saved across 73 audits resolved since launch"}
+{"did": "B148", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B149", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B150", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B151", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B152", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B153", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B154", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B155", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B156", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B157", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B158", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B159", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B160", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B161", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "up to 60-80% inquiry reduction, 160 FTE hours; projected"}
+{"did": "B162", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "estimated 40,000 hours saved, >500% ROI"}
+{"did": "B163", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B164", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B165", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B166", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B167", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "exam time reduced by up to 35 seconds"}
+{"did": "B168", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B169", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B170", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "80-90% time saved vs regular engagement with the service center"}
+{"did": "B171", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "60 minutes per document to under 5"}
+{"did": "B172", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B173", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B174", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B175", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "20% more Veterans provided care; stated as an objective"}
+{"did": "B176", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B177", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B178", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B179", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B180", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "600 times faster than manual searches"}
+{"did": "B181", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B182", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B183", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B184", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B185", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B186", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B187", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "40% speed increase in developing code, current assessments"}
+{"did": "B188", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B189", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B190", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B191", "quantified": true, "metric_named": true, "evaluation_described": true, "baseline_given": true, "uncertainty_given": false, "note": "94% exam pass rate for heaviest users vs lowest users, one intern class, 2023 certification exam"}
+{"did": "B192", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B193", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B194", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B195", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "share of time on compliance describes the problem"}
+{"did": "B196", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "40-70% review time reduction projected against a stated current 45-60 minutes"}
+{"did": "B197", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B198", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B199", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "training image count"}
+{"did": "B200", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "dramatic reduction without a number"}
+{"did": "B201", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "80-90% time saved vs custom query development"}
+{"did": "B202", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B203", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B204", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B205", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B206", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B207", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "options evaluated, not performance"}
+{"did": "B208", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": ""}
+{"did": "B209", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B210", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B211", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B212", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B213", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B214", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "reduces clinical reviews by a third; spelled-out fraction, v2 catch"}
+{"did": "B215", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B216", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B217", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B218", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B219", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B220", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B221", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B222", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B223", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B224", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B225", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B226", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B227", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B228", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B229", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B230", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B231", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B232", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B233", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B234", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B235", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B236", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B237", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B238", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B239", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B240", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B241", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B242", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B243", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B244", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B245", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B246", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B247", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B248", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B249", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B250", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B251", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B252", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B253", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B254", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B255", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B256", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B257", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B258", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B259", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B260", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B261", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B262", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B263", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B264", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B265", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B266", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B267", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B268", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B269", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B270", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B271", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B272", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B273", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "reduces images to review by 2/3; slash fraction, v2 catch"}
+{"did": "B274", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B275", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B276", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B277", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B278", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B279", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B280", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B281", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B282", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B283", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B284", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B285", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B286", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B287", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B288", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "GPS location within 3 meters; single digit with unit, v2 catch"}
+{"did": "B289", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B290", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B291", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B292", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B293", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B294", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B295", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B296", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B297", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B298", "quantified": true, "metric_named": true, "evaluation_described": false, "baseline_given": true, "uncertainty_given": false, "note": "processing time from about one week to one day; spelled-out numbers, v2 catch"}
+{"did": "B299", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B300", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B301", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B302", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B303", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B304", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
+{"did": "B305", "quantified": false, "metric_named": false, "evaluation_described": false, "baseline_given": false, "uncertainty_given": false, "note": "v2 candidate, no performance figure"}
